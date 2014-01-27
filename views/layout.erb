@@ -1,0 +1,96 @@
+<!DOCTYPE=html>
+
+<html>
+  <head>
+    <title>Derek Silverman</title>
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,800' rel='stylesheet' type='text/css'>
+
+    <style>
+
+    body { 
+      overflow: visible;
+      padding: 0;
+      background: #1773b1;
+      background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 60, color-stop(1%, #1389c0, 0.6), color-stop(60%, #1773b1), url("/img/beefsteak_leaderboard.png"));
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(59%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))), url('/img/beefsteak_leaderboard.png') no-repeat;
+      background: url('/img/beefsteak_leaderboard.png') no-repeat, -moz-radial-gradient(50% 50%, ellipse closest-corner, #1389c0 1%, #1773b1 60%);
+      background: -o-radial-gradient(50% 50%, ellipse closest-corner, #1389c0 1%, #1773b1 60%), url('/img/beefsteak_leaderboard.png') no-repeat;
+      background: radial-gradient(50% 50%, ellipse closest-corner, #1389c0 1%, #1773b1 60%), url('/img/beefsteak_leaderboard.png') no-repeat;
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      text-shadow: rgba(0, 0, 0, 0.9) 0 2px 0;
+      box-shadow: rgba(0, 0, 0, 0.9) 0 2px 0;
+      background-size: cover;
+    }
+
+    .header {
+      height: 100%;
+      width: 100%;
+    }
+
+    .header .name{
+      font-family: 'Sanchez', serif;
+      color: white;
+      margin: 0 auto;
+      padding-top: 325px;
+      font-size: 100px;
+    }
+
+    h1 {
+      font-size: 100px;
+      font-family: 'Dosis', sans-serif;
+    }
+
+     .header p {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: 2px;
+      -webkit-animation-duration: 2s;
+      -webkit-animation-delay: 1s;
+    }
+
+    a:-webkit-any-link {
+      color: white;
+      text-decoration: none;
+      cursor: auto;
+    }
+
+    @media screen and (max-width: 700px) {
+
+      .header .name{
+      font-family: 'Sanchez', serif;
+      color: #faf3e0;
+      margin: 0 auto;
+      padding-top: 275px;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    }
+
+    </style>
+
+  </head>
+  
+  <body>
+  <div class="header">
+  <%= yield %>
+  </div>
+  <div></div>
+  </body>
+
+<script>
+
+$('img').addClass('animated fadeIn');
+$('#yourElement').one('webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd', $('img').hide(););
+
+</script>
+
+
+
+</html>

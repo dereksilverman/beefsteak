@@ -1,0 +1,59 @@
+
+
+
+    body { 
+      text-align: center;
+      background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727)), url("/img/beefsteak.png");
+      border: 20px white solid;
+      margin: 0px !important;
+    }
+
+    .header {
+      height: 100%;
+      width: 100%;
+    }
+
+    h1 {
+      font-family: 'Dosis', sans-serif;
+      -webkit-transform: rotate(-45deg);
+      color: white;
+      margin: 0 auto;
+      padding-top: 325px;
+      font-size: 100px;
+      font-weight: 800;
+    }
+
+     .header p {
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: 2px;
+      -webkit-animation-duration: 2s;
+      -webkit-animation-delay: 1s;
+    }
+
+    a:-webkit-any-link {
+      color: white;
+      text-decoration: none;
+      cursor: auto;
+    }
+
+    @media screen and (max-width: 700px) {
+
+      .header .name{
+      font-family: 'Sanchez', serif;
+      color: white;
+      margin: 0 auto;
+      padding-top: 275px;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+   
+
+   background: -moz-radial-gradient(center, ellipse cover,  rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727)), url("/img/beefsteak.png");
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%), url("/img/beefsteak.png"); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=1 );
