@@ -12,5 +12,13 @@ module BrooklynBeefsteak
      erb :index
     end
 
+     get '/partners' do
+     erb :index
+    end
+
+    get '/history' do
+     erb :index
+    end
+
 	end
 end
