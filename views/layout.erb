@@ -3,94 +3,129 @@
 <html>
   <head>
     <title>Derek Silverman</title>
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link href="/css/foundation.css" rel="stylesheet">
     <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Dosis:400,800' rel='stylesheet' type='text/css'>
-
-    <style>
-
-    body { 
-      overflow: visible;
-      padding: 0;
-      background: #1773b1;
-      background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 60, color-stop(1%, #1389c0, 0.6), color-stop(60%, #1773b1), url("/img/beefsteak_leaderboard.png"));
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(59%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))), url('/img/beefsteak_leaderboard.png') no-repeat;
-      background: url('/img/beefsteak_leaderboard.png') no-repeat, -moz-radial-gradient(50% 50%, ellipse closest-corner, #1389c0 1%, #1773b1 60%);
-      background: -o-radial-gradient(50% 50%, ellipse closest-corner, #1389c0 1%, #1773b1 60%), url('/img/beefsteak_leaderboard.png') no-repeat;
-      background: radial-gradient(50% 50%, ellipse closest-corner, #1389c0 1%, #1773b1 60%), url('/img/beefsteak_leaderboard.png') no-repeat;
-      -webkit-transform: translate3d(0, 0, 0);
-      -moz-transform: translate3d(0, 0, 0);
-      -o-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      text-shadow: rgba(0, 0, 0, 0.9) 0 2px 0;
-      box-shadow: rgba(0, 0, 0, 0.9) 0 2px 0;
-      background-size: cover;
-    }
-
-    .header {
-      height: 100%;
-      width: 100%;
-    }
-
-    .header .name{
-      font-family: 'Sanchez', serif;
-      color: white;
-      margin: 0 auto;
-      padding-top: 325px;
-      font-size: 100px;
-    }
-
-    h1 {
-      font-size: 100px;
-      font-family: 'Dosis', sans-serif;
-    }
-
-     .header p {
-      color: white;
-      font-family: 'Raleway', sans-serif;
-      letter-spacing: 2px;
-      -webkit-animation-duration: 2s;
-      -webkit-animation-delay: 1s;
-    }
-
-    a:-webkit-any-link {
-      color: white;
-      text-decoration: none;
-      cursor: auto;
-    }
-
-    @media screen and (max-width: 700px) {
-
-      .header .name{
-      font-family: 'Sanchez', serif;
-      color: #faf3e0;
-      margin: 0 auto;
-      padding-top: 275px;
-      font-size: 40px;
-      line-height: 40px;
-    }
-
-    }
-
-    </style>
+    <script src="/js/jquery.slides.min.js"></script>
+    <script src="/js/foundation.min.js"></script>
+<!--     // <script src="/js/foundation.reveal.js"></script> -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 
   </head>
   
   <body>
-  <div class="header">
-  <%= yield %>
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=308560484984";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="header">
+
+      <img width="300px" src="/img/beefsteak_outline.svg" style="position: relative; top: 40px; left: 30px;"><br>
+      <div class="social">
+        <a href="https://www.facebook.com/brooklynbeefsteak" target="_blank"><div class="circle"><i class="fa fa-facebook"></i></div></a>
+        <a href="https://www.facebook.com/brooklynbeefsteak" target="_blank"><div class="circle"><i class="fa fa-twitter"></i></div></a>
+        <a href="#myModal" data-reveal-id="myModal" data-reveal><div class="circle"><i class="fa fa-envelope"></i></div></a>
+      </div>
+    </div>
+
+    <div id="myModal" class="reveal-modal small" data-reveal>
+      <h5 style="padding-top: 20px;">REQUEST AN INVITE</h5>
+      <form action="" method="POST">
+        <div class="row"><br>
+          <div class="large-11 large-centered columns">
+            <input id="POST-email" type="text" name="email" placeholder="Email" />
+            <button type="submit" value="Submit" class="button radius" style="float: left;">Submit</button>
+          </div>
+        </div> 
+      </form>
+      <a class="close-reveal-modal">&#215;</a>
   </div>
-  <div></div>
-  </body>
+
+ 
+    <div id="slides" style="height: 100%; width: 100%;">
+      <img src="/img/beefsteak_1.png">
+      <img src="/img/beefsteak_2.png">
+      <img src="/img/beefsteak_3.png">
+      <img src="/img/beefsteak_4.png">
+    </div>
+
+    <div style="width: 100%">
+      <div class="navbar" >
+        <div style="float:left">
+          <span>Tickets</span><span>History</span><span>Sponsors</span><span>Partners</span>
+        </div>
+      </div>
+    <div class="row">
+      <div class="small-10 large-10 large-centered columns">
+          <div class="graphic"></div>
+        <div class="main_text">
+         <h1>LADIES & GENTS</h1>
+         <p>Grab all the steak you can get your greasy hands on – it’s the Brooklyn Beefsteak. <br> <br> Five years running, New York’s galvanizing beef and beer bonanza arrives at the Bell House on Sunday, April 13th in its boldest form to date.
+         <br><br>
+         We’re talking heaping trays of delectable slices of steak, an endless flow of McSorley's Ale, and a double-serving of the baddest hillbilly proto-rockers this side of the Allegheny – Susquehanna Tool & Die Co. </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-6 large-6 large-offset-1 columns">
+        <h1 style="margin-top: 20px; text-align:left; line-height:80px;">TICKETS ON SALE NOW!</h1>
+      </div>
+    </div>
+      <div class="row">
+      <div class="small-10 large-10 large-centered columns">
+  <!--        <h2 style="text-align:left;">BUT WAIT! THAT’S NOT ALL…</h2> -->
+         <p>Tammy Hall politicians threw all-you-can-eat beefsteaks to win over the hearts and minds of New York voters. This year, the beefsteak takes on a cause of its own, making a dollar-for-dollar donation to St. John's Bread & Life, for any sales of… you guessed it…</p>
+      </div>
+   <!--      <img src="/img/ticket.png"> -->
+      </div>
+    </div>
+  <br><br><br><br>
+
+</body>
 
 <script>
+
 
 $('img').addClass('animated fadeIn');
 $('#yourElement').one('webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd', $('img').hide(););
 
+
 </script>
 
+<script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 1440,
+        height: 720,
+        pagination: false,
+        generatePagination: false,
+         play: {
+          active: false,
+          effect: "slide",
+          auto: true,
+          interval: 5000,
+          swap: true
+        },
+      slide: {
+        speed: 9000,
+          // [number] Speed in milliseconds of the fade animation
+      }
+      });
+});
+
+</script>
 
 
 </html>

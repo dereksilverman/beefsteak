@@ -1,59 +1,138 @@
 
 
-
     body { 
-      text-align: center;
-      background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727)), url("/img/beefsteak.png");
-      border: 20px white solid;
-      margin: 0px !important;
+      margin:0;
+      background-color: #faf4df;
+    }
+
+
+
+    #slides img {
+      z-index: -1;
+      opacity:0.9;
     }
 
     .header {
-      height: 100%;
       width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 20;
+      font-size: 30px;
     }
 
-    h1 {
-      font-family: 'Dosis', sans-serif;
-      -webkit-transform: rotate(-45deg);
+    .navbar {
+      font-family: 'Nunito', 
+      sans-serif; text-align: left; 
+      margin-left: 2%; 
+      font-size: 20px; 
+      height: 100px; 
+      margin-top: -40px;
+      margin-bottom: 40px;
+    }
+
+    .header .name{
+      font-family: 'Open Sans', serif;
       color: white;
       margin: 0 auto;
-      padding-top: 325px;
-      font-size: 100px;
-      font-weight: 800;
+      padding-top: 50px;
+      padding-right: 50px;
+      font-size: 20px;
     }
 
-     .header p {
-      color: white;
-      font-family: 'Raleway', sans-serif;
-      letter-spacing: 2px;
-      -webkit-animation-duration: 2s;
-      -webkit-animation-delay: 1s;
-    }
+  span {
+    margin-left: 30px;
+  }
 
-    a:-webkit-any-link {
-      color: white;
-      text-decoration: none;
-      cursor: auto;
-    }
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 6em;
+  text-align: center;
+  font-weight: bold;
+}
 
-    @media screen and (max-width: 700px) {
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3.3em;
+  text-align: center;
+  font-weight: bold; 
+}
 
-      .header .name{
-      font-family: 'Sanchez', serif;
-      color: white;
-      margin: 0 auto;
-      padding-top: 275px;
-      font-size: 40px;
-      line-height: 40px;
-    }
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: justify;
+  margin-top: 20px;
+  line-height: 44px;
+  
+}
 
-   
 
-   background: -moz-radial-gradient(center, ellipse cover,  rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0, center center, 460, from(#1a82f7), to(#2F2727)), url("/img/beefsteak.png");
-background: -webkit-radial-gradient(center, ellipse cover,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%), url("/img/beefsteak.png"); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* IE10+ */
-background: radial-gradient(ellipse at center,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=1 );
+.social {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.circle {
+  position: relative;
+  border: 1px solid white; 
+  border-radius: 26px;
+  box-shadow: 0 0 2px #888;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 12px;
+}
+
+.fa {
+  color: white;
+  font-size: 20px;
+}
+
+.fa-facebook {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+}
+
+.fa-twitter {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.fa-envelope {
+  font-size: 18px;
+  position: absolute;
+  top: 11px;
+  left: 10px;
+}
+
+.graphic {
+margin: 0 auto;
+width:350px;
+height:300px;
+margin-bottom: 60px;
+animation:beefbeerfun 5s infinite;
+-webkit-animation:beefbeerfun 5s infinite; /* Safari and Chrome */
+}
+
+@keyframes beefbeerfun
+{
+0%   {background: url(../img/cow.svg);}
+45%  {background: none;}
+50%  {background: url(../img/beer.svg);}
+100% {background: url(../img/fun.svg);}
+}
+
+@-webkit-keyframes beefbeerfun
+{
+0%   {background: url(../img/cow.svg);}
+30%  {background: url(../img/cow.svg);}
+31%  {background: none;}
+33%  {background: url(../img/beer.svg);}
+65%  {background: url(../img/beer.svg);}
+66%  {background: none;}
+95% {background: url(../img/fun.svg);}
+95% {background: url(../img/fun.svg);}
+}
