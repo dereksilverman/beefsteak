@@ -154,8 +154,8 @@ animation:beefbeerfun 5s infinite;
 
 input[type=text] {
 padding: 20px!important;
-float: right;
-width: 100%;
+float: left;
+width: 60%;
 border: 0;
 font-family: proxima-nova,sans-serif;
 font-size: 16px;
@@ -185,11 +185,14 @@ margin: 0 0 .75rem;
 
 
 footer {
-  font-family: "Nunito", sans-serif;
-  max-width: 100%;
+  position: fixed;
+  bottom: 0px;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
   padding-top: 25px;
+  padding-left: 150px;
   color: white;
-  background-color: black;
+  background-color: #ff9933;
   height: 60px;
 }
 
@@ -202,14 +205,22 @@ footer {
   z-index: 999;
 }
 
+
 .band_bottom_left {
   position: fixed;
   bottom:0px;
   left:50px;
 }
 
+.band_text {
+  position: fixed;
+  bottom: 0px;
+  margin-left: 320px;
+
+}
+
 .band_bottom_right {
   position: fixed;
   bottom:0px;
-  right:50px;
+  right:10px;
 }
