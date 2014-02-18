@@ -63,10 +63,10 @@ h2 {
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 40px;
-  text-align: justify;
+  font-size: 36px;
+  text-align: left;
   margin-top: 20px;
-  line-height: 44px;
+  line-height: 40px;
   
 }
 
@@ -200,4 +200,16 @@ footer {
   height: 200px;
   margin: 0 auto;
   z-index: 999;
+}
+
+.band_bottom_left {
+  position: fixed;
+  bottom:0px;
+  left:50px;
+}
+
+.band_bottom_right {
+  position: fixed;
+  bottom:0px;
+  right:50px;
 }
