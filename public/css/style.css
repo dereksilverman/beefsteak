@@ -112,14 +112,43 @@ p {
 
 .graphic {
 margin: 0 auto;
-width:350px;
+width:310px;
 height:300px;
-margin-bottom: -20px;
+margin-bottom: 200px;
 animation:beefbeerfun 5s infinite;
--webkit-animation:beefbeerfun 5s infinite; /* Safari and Chrome */
+-webkit-animation:beefbeerfun 1.5s infinite; /* Safari and Chrome */
 }
 
 @keyframes beefbeerfun
+{
+0%   {background: url(../img/beef_txt.png);}
+45%  {background: none;}
+50%  {background: url(../img/beer_txt.png);}
+100% {background: url(../img/fun_txt.png);}
+}
+
+@-webkit-keyframes beefbeerfun
+{
+0%   {background: url(../img/beef_txt.png);}
+30%  {background: url(../img/beef_txt.png);}
+31%  {background: none;}
+33%  {background: url(../img/beer_txt.png);}
+65%  {background: url(../img/beer_txt.png);}
+66%  {background: none;}
+95% {background: url(../img/fun_txt.png);}
+95% {background: url(../img/fun_txt.png);}
+}
+
+.graphict_test {
+margin: 0 auto;
+width:350px;
+height:300px;
+margin-bottom: -20px;
+animation: 5s infinite;
+-webkit-animation: 5s infinite; /* Safari and Chrome */
+}
+
+@keyframes 
 {
 0%   {background: url(../img/cow.svg);}
 45%  {background: none;}
@@ -127,7 +156,7 @@ animation:beefbeerfun 5s infinite;
 100% {background: url(../img/fun.svg);}
 }
 
-@-webkit-keyframes beefbeerfun
+@-webkit-keyframes 
 {
 0%   {background: url(../img/cow.svg);}
 30%  {background: url(../img/cow.svg);}
