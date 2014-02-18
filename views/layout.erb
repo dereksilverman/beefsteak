@@ -2,58 +2,69 @@
 
 <html>
   <head>
-    <title>Derek Silverman</title>
-    <link href="/css/normalize.css" rel="stylesheet">
-    <link href="/css/foundation.css" rel="stylesheet">
-    <link href="/css/animate.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="/js/jquery.slides.min.js"></script>
-    <script src="/js/foundation.min.js"></script>
-<!--     // <script src="/js/foundation.reveal.js"></script> -->
+    <title>Brooklyn Beefsteak</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link rel="stylesheet" href="/css/animate.min.css" >
+    <link rel="stylesheet" href="/css/style.css" >
+    <!-- GOOGLE FONTS -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "8bc8d9da-fb73-4a33-8063-86c2d095fa74", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 
   </head>
   
   <body>
 
+    <!-- FACEBOOK SHARE -->
     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=308560484984";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=308560484984";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
 
     <div class="header">
-
       <img width="300px" src="/img/beefsteak_outline.svg" style="position: relative; top: 40px; left: 30px;"><br>
       <div class="social">
-        <a href="https://www.facebook.com/brooklynbeefsteak" target="_blank"><div class="circle"><i class="fa fa-facebook"></i></div></a>
-        <a href="https://www.facebook.com/brooklynbeefsteak" target="_blank"><div class="circle"><i class="fa fa-twitter"></i></div></a>
-        <a href="#myModal" data-reveal-id="myModal" data-reveal><div class="circle"><i class="fa fa-envelope"></i></div></a>
-      </div>
+        <a href="https://www.facebook.com/brooklynbeefsteak" target="_blank">
+          <div class="circle">
+            <i class="fa fa-facebook"></i>
+          </div></a>
+        <a href="https://www.facebook.com/brooklynbeefsteak" target="_blank">
+          <div class="circle">
+            <i class="fa fa-twitter"></i>
+          </div></a>
+
+        <a href="#" data-reveal-id="myModal" data-reveal>
+          <div class="circle">
+            <i class="fa fa-envelope"></i>
+          </div></a>
+      </div> 
+    </div>
+    
+    <!-- PAGE LOADER -->  
+    <div id="overlay">
+        <div class="graphic" style="margin-top: 100px;"></div>
     </div>
 
-    <div id="myModal" class="reveal-modal small" data-reveal>
-      <h5 style="padding-top: 20px;">REQUEST AN INVITE</h5>
-      <form action="" method="POST">
-        <div class="row"><br>
-          <div class="large-11 large-centered columns">
-            <input id="POST-email" type="text" name="email" placeholder="Email" />
-            <button type="submit" value="Submit" class="button radius" style="float: left;">Submit</button>
-          </div>
-        </div> 
-      </form>
-      <a class="close-reveal-modal">&#215;</a>
-  </div>
+    <div id="arrow_down">
+      <a href="#main_text">
+        <i class="fa fa-chevron-down fa-3x"></i>
+      </a>
+    </div>
 
- 
+    <!-- IMAGE SLIDER -->
     <div id="slides" style="height: 100%; width: 100%;">
       <img src="/img/beefsteak_1.png">
       <img src="/img/beefsteak_2.png">
@@ -61,45 +72,95 @@
       <img src="/img/beefsteak_4.png">
     </div>
 
-      <div class="navbar" style="width=100%;">
-        <div style="float:left">
-          <span>Tickets</span><span>History</span><span>Sponsors</span><span>Partners</span>
-        </div>
-      </div>
     <div class="row" style="margin-top: 100px;">
-      <div class="small-10 large-10 large-centered columns">
-          <div class="graphic"></div>
-        <div class="main_text">
-         <h1>LADIES & GENTS</h1>
-         <p>Grab all the steak you can get your greasy hands on – it’s the Brooklyn Beefsteak. <br> <br> Five years running, New York’s galvanizing beef and beer bonanza arrives at the Bell House on Sunday, April 13th in its boldest form to date.
-         <br><br>
-         We’re talking heaping trays of delectable slices of steak, an endless flow of McSorley's Ale, and a double-serving of the baddest hillbilly proto-rockers this side of the Allegheny – Susquehanna Tool & Die Co. </p>
+      <div class="small-12 large-12  large-centered columns">
+        <h1 style="font-size:15em;">45 DAYS</h1>
+        <h1 style="font-size:2em; text-align: center; margin-top: -60px; letter-spacing: 12px; margin-bottom: 100px; font-family: 'Nunito'">UNTIL THE NEXT BEEFSTEAK!</h1>
+      </div>
+
+      <div class="row" style="margin-bottom: 50px;">
+        <div class="small-4 large-4 columns" style="border-right: 1px dotted black">
+          <p style="font-size: 1.5em; line-height: 1.4em; text-align: center">Sunday<br>April 13th</p>
+        </div>
+        <div class="small-4 large-4 columns" style="border-right: 1px dotted black; text-align: center">
+          <h1 style="font-size: 2em; text-align: center">Two Seatings</h1><p style="font-size: 1.5em; text-align: center; margin-top: -50px;"><br>1PM & 5PM</p>
+        </div>
+        <div class="small-4 large-4 columns">
+          <p style="font-size: 1.5em; line-height: 1.4em; text-align: center">$50 for Groups<br>
+          $55 for Individual</p>
         </div>
       </div>
+        
+      <a href="#" class="button radius round" style="margin-left: 39%;">Get Your Tickets Now!</a>
+      <p style="font-size: 0.8em; text-align: center; margin-top: 0px; line-height:14px;">Ticket price includes all-you-can-eat-and-drink beef & beef,<br> souvenir apron (for grilling in the sun), and endless fun.<br><b>And absolutely, no utensils!</b><p>
     </div>
-    <div class="row">
-      <div class="small-6 large-6 large-offset-1 columns">
-        <h1 style="margin-top: 20px; text-align:left; line-height:80px;">TICKETS ON SALE NOW!</h1>
+
+    <div class="row" style="margin-top: 100px; margin-bottom: 100px;">
+      <div class="small-12 large-12 large-centered columns">
+        <h1 style="font-size: 4em">LADIES & GENTS,</h1></a>
+        <p>Grab all the steak you can get your greasy hands on – it’s the Brooklyn Beefsteak. <br> <br> Five years running, New York’s galvanizing beef and beer bonanza arrives at the Bell House on Sunday, April 13th in its boldest form to date.
+        <br><br>We’re talking heaping trays of delectable slices of steak, an endless flow of McSorley's Ale, and a double-serving of the baddest hillbilly proto-rockers this side of the Allegheny – <a href="http://www.sitanddieco.com/">Susquehanna Tool & Die Co.</a></p>
+        </div>
       </div>
-    </div>
+
       <div class="row">
-      <div class="small-10 large-10 large-centered columns" style="margin-bottom: 100px">
-  <!--        <h2 style="text-align:left;">BUT WAIT! THAT’S NOT ALL…</h2> -->
-         <p>Tammy Hall politicians threw all-you-can-eat beefsteaks to win over the hearts and minds of New York voters. This year, the beefsteak takes on a cause of its own, making a dollar-for-dollar donation to St. John's Bread & Life, for any sales of… you guessed it…</p>
-      </div>
-   <!--      <img src="/img/ticket.png"> -->
-      </div>
+      <ul class="small-block-grid-3">
+        <li><img src="/img/sirk.png"></li>
+        <li><img src="/img/bellhouse.png"></li>
+        <li><img src="/img/patlafrieda.png"></li>
+      </ul>
+
+
+
     </div>
-  <br><br><br><br>
+
+
+
+  <div id="myModal" class="reveal-modal small" data-reveal>
+  <h2>Be the first to know!</h2>
+  <form action="http://brooklynbeefsteak.us2.list-manage1.com/subscribe/post?u=a8837b130856b6a7d35513c2a&amp;id=8429a35bb4" method="POST">
+    <input type=hidden name="oid" value="us2-a8837b130856b6a7d35513c2a-8429a35bb4">
+    <input type=hidden name="retURL" value="http://www.crowdtangle.com/contact">
+    <input id="POST-email" type="text" name="email" placeholder="email" />
+    <button type="submit" value="Submit" class="button radius" style="float: left;">Submit</button>
+  </form>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+
+<footer>
+  <div class="row">2014 Copyright Sunday's Best</div>
+</footer>
+
+
+
+
 
 </body>
 
+<!-- JAVASCRIPT -->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="/js/modernizr.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script src="/js/jquery.smooth-scroll.js"></script>
+<script src="/js/jquery.slides.min.js"></script>
+
+
 <script>
 
-
+$(document).foundation();
 $('img').addClass('animated fadeIn');
-$('#yourElement').one('webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd', $('img').hide(););
 
+</script>
+
+<script>
+$(window).load(function(){
+
+   // PAGE IS FULLY LOADED  
+   // FADE OUT YOUR OVERLAYING DIV
+   // $('#overlay').fadeOut();
+
+});
 
 </script>
 
@@ -125,6 +186,10 @@ $('#yourElement').one('webkitAnimationEnd mozAnimationEnd oAnimationEnd animatio
 });
 
 </script>
+
+
+
+
 
 
 </html>
