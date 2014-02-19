@@ -3,6 +3,7 @@
 <html>
   <head>
     <title>Brooklyn Beefsteak</title>
+     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/foundation.css">
@@ -28,37 +29,16 @@
 
 
     <div class="header">
-      <img width="300px" src="/img/beefsteak_outline.svg" style="position: relative; top: 40px; left: 30px;"><br>
-<!--       <div class="social">
-        <a href="https://www.facebook.com/brooklynbeefsteak" target="_blank">
-          <div class="circle">
-            <i class="fa fa-facebook"></i>
-          </div></a>
-        <a href="https://www.facebook.com/brooklynbeefsteak" target="_blank">
-          <div class="circle">
-            <i class="fa fa-twitter"></i>
-          </div></a>
-
-        <a href="#" data-reveal-id="myModal" data-reveal>
-          <div class="circle">
-            <i class="fa fa-envelope"></i>
-          </div></a>
-      </div>  -->
+      <img width="300px" src="/img/beefsteak_outline.svg" id="header_logo"><br>
     </div>
     
    
     <div id="overlay">
-        <div class="graphic" style="margin-top: 100px;"></div>
-    </div>
-
-    <div id="arrow_down">
-      <a href="#main_feature" class="scroll">
-        <i class="fa fa-chevron-down fa-3x"></i>
-      </a>
+        <div class="graphic"></div>
     </div>
 
     <!-- IMAGE SLIDER -->
-    <div id="slides" style="height: 100%; width: 100%;">
+    <div id="slides" class="slider_container">
       <img src="/img/beefsteak_1.png">
       <img src="/img/beefsteak_7.png">
       <img src="/img/beefsteak_2.png">
@@ -72,8 +52,15 @@
 
     </div>
 
-    <div id="main_feature" class="row" style="margin-top: 300px;">
-      <div class="small-12 large-3 columns" style="text-align:left;">
+
+    <div id="arrow_down">
+      <a href="#main_feature" class="scroll">
+        <i id="arrow" class="fa fa-chevron-down fa-3x hide-for-small-only"></i>
+      </a>
+    </div>
+
+    <div id="main_feature" class="row">
+      <div class="small-12 large-3 columns hide-for-small-only" style="text-align:left;">
         <img src="/img/paperboy.png">
           <div style="margin-left:20px; margin-top:30px;">
             <p class="spread">SPREAD THE WORD</p>
@@ -82,61 +69,66 @@
               <span class='st_reddit_large' displayText='Reddit'></span>
               <span class='st_email_large' displayText='Email'></span>
           </div>
-          <div style="margin-left:20px; margin-top:30px;">
+      <!--     <div style="margin-left:20px; margin-top:30px;">
             <p class="spread">STAY IN THE KNOW</p>
               <a href="#" data-reveal-id="myModal" data-reveal>Click Me For A Modal</a>
-          </div>
+          </div> -->
       </div>
       <div class="small-12 large-9 columns">
         <h1 style="margin-top: -120px;">53 DAYS!</h1>
-        <h1 style="font-size:2em; text-align: left; margin-top: -60px; padding-top: 10px; letter-spacing: 2px; margin-bottom: 100px; font-family: 'Nunito'">UNTIL THE NEXT BEEFSTEAK!</h1>
-        <h1 style="font-size: 3em">LADIES & GENTS,</h1></a>
-        <p style="font-size:2em;">
+        <h4 >UNTIL THE NEXT BEEFSTEAK!</h4>
+        <h3>LADIES & GENTS,</h3></a>
+        <p>
         Grab all the steak you can get your greasy hands on – it’s the Brooklyn Beefsteak!<br><br> Five years running, New York’s galvanizing beef and beer banquet arrives at the Bell House on Sunday, April 13th in its boldest form to date.<br><br>
 
         We’re talking heaping trays of delectable sliced steak, an endless flow of McSorley’s Light & Dark, and a double-serving of the baddest hillbilly proto-rockers this side of the Allegheny – Susquehanna Tool & Die Company...SIT & DIE!<br><br>
 
-        It’s a celebration of America's favorite libation and our carnivorous inclinations. Committed communal bread-stacking is not only welcome, but encouraged and rewarded.  So tie on your aprons*, forget your forks and knives, and belly up for a boisterous taste of New York tradition.<br><br>
+        It’s a celebration of America's favorite libation and our carnivorous inclinations. Committed communal bread-stacking is not only welcome, but encouraged and rewarded.<br><br> So tie on your aprons*, forget your forks and knives, and belly up for a boisterous taste of New York tradition.<br><br></p>
         
-        <div id="ticket_background" class="row" style="padding-bottom: 10px; padding-top:50px; border: 1px dotted black; background-color:white;">
+        <div id="ticket_background" class="row" style="padding-top:50px; border: 1px dotted black; background-color:white;">
               <img src="/img/allyoucaneat.svg">
               <img src="/img/big_ticket.svg">
   
           <div class="row" style="margin-top: 40px; margin-bottom: 60px">
-            <div id="trigger_band" class="small-4 large-4 columns">
-              <h1 style="font-size: 1.4em; margin-left: 50px; text-align: left;">Date</h1>
-              <p style="font-size: 1.2em; margin-left: 50px; text-align: left; margin-top: -15px">Sunday, April 13th</p><br>
+            <div id="trigger_band" class="small-12 large-4 columns">
+              <h1 id="details_header_date">Date</h1>
+              <p id="date_text">Sunday, April 13th</p><br>
             </div>
-            <div class="small-4 large-4 columns" style="text-align: center">
-              <h1 style="font-size: 1.4em; margin-top: 5px; padding-left:20px; text-align: left">Two Seatings!</h1><p style="font-size: 1.2em; margin-left: 20px; text-align: left; margin-top: -58px;"><br>1PM & 5PM<br>
+            <div class="small-12 large-4 columns">
+              <h1 id="details_header_seatings">Two Seatings!</h1>
+              <p id="two_seatings_text"><br>1PM & 5PM</p><br>
             </div>
-            <div class="small-4 large-4 columns">
-              <h1 style="font-size: 1.4em; margin-top: 5px; text-align: left">Tickets</h1>
-              <p style="font-size: 1.2em; line-height: 1.2em; margin-top: -5px; text-align: left">$50 for Groups<br>
+            <div class="small-12 large-4 columns">
+              <h1 id="details_header">Tickets</h1>
+              <p id="ticket_text">$50 for 4+ Groups<br>
               $55 for Individual</p>
             </div>
+          </div>
 
-            <p style="font-size: 1em; text-align: left; margin-top: 70px; line-height:20px; margin-left: 60px; margin-right: 100px">Ticket price includes all-you-can-eat-and-drink beef & beef, souvenir apron <br>(for grilling in the sun), and endless fun.<b> And absolutely, no utensils!</b><p>
-      
+          <div id="ticket_details" class="row">
+            <div id="ticket" class="small-12 large-4 columns">
+              <img src="/img/ticket.png">
+            </div>
 
-               <div id="partners" class="row">
-    <div class="small-9 large-9 large-offset-1 columns">
-<!--       <h2 style="font-family:'Nunito'; font-size: 1em; text-align: left;">OUR FRIENDS & PARTNERS</h2>
- -->        <ul class="small-block-grid-4" style="margin-top:50px;">
-          <li><img src="/img/sirk2.png"></li>
-          <li><img src="/img/bellhouse2.png"></li>
-          <li><img src="/img/patlafrieda.png"></li> 
-          <!--         <li><img src="/img/sirk.png"></li> -->
-        </ul>
-
-    </div>
-
-  </div>
-
-
-             </div>
+            <div class="small-12 large-8 columns">
+            <p>Ticket price includes all-you-can-eat-and-drink beef & beef, souvenir apron (for grilling in the sun), and endless fun.<b> And absolutely, no utensils!</b><p>
             </div>
         </div>
+
+      
+
+            <div id="partners" class="row">
+              <div class="small-12 small-centered large-9 large-offset-1 columns">
+                <h2 style="font-family:'Nunito'; font-size: 1em; text-align: left;">OUR FRIENDS & PARTNERS</h2>
+                 <ul class="small-block-grid-4" style="margin-top:20px;">
+                      <li><a href="http://sirkensingtons.com"/ target="_blank"><img src="/img/sirk2.png"></li></a>
+                      <li><a href="http://www.thebellhouseny.com/" target="_blank"><img src="/img/bellhouse2.png"></li></a>
+                      <li><a href="http://www.lafrieda.com/" target="_blank"><img src="/img/patlafrieda.png" style="margin-top: 10px"></li></a>
+                </ul>
+              </div>
+          </div> 
+        </div>
+      </div>
 
  <!--              <div class="row">
                 <h1 style="font-family: 'Nunito'; text-align: left; font-size:2em; margin-top: 40px;">BE THE FIRST TO KNOW!</h1>
@@ -181,9 +173,9 @@
 
   
   <div id="theband">
-    <div class="container_band">
+    <div class="container_band hide-for-small-only">
       <div class="band_bottom_left"><img src="/img/theband.png"></div>
-      <h3 class="band_text" style="font-family:'Damion'; color: white; letter-spacing: 0px;">Appearing Live! Susquehanna Industrial Tool & Die Company</h3>
+      <h3 class="band_text">Appearing Live! Susquehanna Industrial Tool & Die Company</h3>
 
       <div class="band_bottom_right"><img src="/img/michael.png"></div>
     </div>
@@ -194,8 +186,8 @@
 
 <footer>
 
-       <div id="foot" style="float:left;">
-                   <span class="foot" style="margin-left:0px !important;">Press</span><span class="foot">History</span><span class="foot">Contact</span><span class="foot">Site Map</span>
+       <div id="foot">
+                   <span class="foot" style="margin-left:0px !important;">Press</span><span class="foot">History</span><span class="foot">Contact</span><!-- <span class="foot">Site Map</span> -->
                    <br><br>
          <br><br>
       </div>

@@ -49,6 +49,7 @@ span {
     margin-left: 32px;
   }
 
+
 h1 {
   font-family: 'Abril Fatface', cursive;
   font-size: 9em;
@@ -68,7 +69,7 @@ h2 {
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 36px;
+  font-size: 2em;
   text-align: left;
   margin-top: 20px;
   line-height: 40px;
@@ -189,11 +190,15 @@ animation: 5s infinite;
 
 #arrow_down {
   position: absolute;
-  bottom: 50px;
+  bottom: 10%;
   margin-left:48%;
   z-index: 999;
 
 }
+
+ #main_feature {
+    margin-top:300px;
+  }
 
 input[type=text] {
 padding: 20px!important;
@@ -242,9 +247,9 @@ footer {
 }
 
 #foot span {
-  
+  float: left;
   letter-spacing: 5px;
-  margin-top: 4px;
+  margin-top: 2px;
   margin-left: 20px !important;
 
 }
@@ -263,13 +268,6 @@ footer {
   position: fixed;
   bottom:0px;
   left:50px;
-}
-
-.band_text {
-  position: fixed;
-  bottom: 5px;
-  margin-left: 330px;
-
 }
 
 .band_bottom_right {
@@ -302,14 +300,294 @@ box-shadow: 0px 8px 92px -24px rgba(255,255,255,0.6);
   background: url("../img/groovepaper.png") repeat-x;
 }
 
-@media only screen and (max-width: 40em) {
+.slider_container {
+  height: 100%;
+  width: 100%;
+}
 
-    h1 {
+#header_logo {
+  position: relative;
+  top: 30px; 
+  left: 30px;
+}
+
+.graphic {
+      position: relative;
+      margin-top: 100px;
+
+  }
+
+h4 {
+
+  font-size:2em; 
+  text-align: left; 
+  margin-top: -60px; 
+  padding-top: 10px; 
+  letter-spacing: 2px; 
+  margin-bottom: 100px; 
+  font-family: 'Nunito';
+
+}
+
+h3 {
   font-family: 'Abril Fatface', cursive;
-  font-size: 4.3em;
+  font-size: 3em;
   text-align: left;
   font-weight: bold;
 
 }
+
+.band_text{
+  font-size: 1.7em;
+  font-family:'Damion' !important;
+  color: white; 
+  letter-spacing: 0px;
+  position: fixed;
+  bottom: 7px;
+  margin-left: 330px;
+
+}
+
+
+#two_seatings_text {
+  font-size: 1.2em;
+  margin-top: -55px; 
+  padding-left:20px; 
+  text-align: left;
+}
+
+#date_text {
+
+  font-size: 1.2em;
+  margin-left: 50px; 
+  text-align: left; 
+  margin-top: -15px;
+}
+
+#details_header_date {
+  margin-left: 50px;
+  font-size: 1.4em; 
+  margin-top: 5px; 
+  text-align: left;
+
+}
+
+#details_header_seatings {
+  margin-left: 20px;
+  font-size: 1.4em; 
+  margin-top: 5px; 
+  text-align: left;
+
+}
+
+#details_header {
+  margin-left: 0px;
+  font-size: 1.2em; 
+  margin-top: 5px; 
+  text-align: left;
+
+}
+  
+#ticket_text {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-top: -5px;
+  text-align: left;
+
+}
+
+#ticket {
+  padding-left: 60px;
+}
+
+#ticket_details {
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+
+#ticket_details p {
+ font-size: 1.0em; 
+  text-align: left; 
+  margin-top: 0px; 
+  line-height:20px; 
+  margin-left: 20px; 
+  margin-right: 60px;
+}
+
+@media only screen and (max-width: 40em) {
+
+    h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4.3em;
+    text-align: left;
+    font-weight: bold;
+    }
+
+    #arrow_down {
+    position: absolute;
+    bottom: 300px;
+    z-index: 999;
+
+    }
+
+
+    .slider_container {
+      height: 50%;
+    }
+
+
+    #header_logo {
+      width: 300px;
+      position: relative;
+      display: block;
+      margin: 0 auto;
+      top: 0px; 
+      left: 0px;
+      }
+
+
+    .graphic {
+      position: relative;
+      margin-top: -190px;
+
+  }
+
+  #main_feature {
+    margin-top:50px;
+  }
+
+
+  h4 {
+
+  font-size:1.2em; 
+  text-align: left; 
+  margin-top: -30px; 
+  padding-top: 10px; 
+  letter-spacing: 2px; 
+  margin-bottom: 100px; 
+  font-family: 'Nunito';
+
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 4em;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2em;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+footer {
+  font-family: "Nunito", sans-serif;
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 100px;
+  color: gray;
+  background-color: rgb(26, 26, 26);
+  height: 140px;
+  max-width: 100%;
+  z-index: -1;
+
+}
+
+#foot span {
+  float: clear;
+  text-align: center;
+  letter-spacing: 0px;
+  margin-left: 10px !important;
+}
+
+
+#two_seatings_text {
+  font-size: 1.2em;
+  margin-top: -35px; 
+  padding-left:50px; 
+  text-align: left;
+}
+
+#date_text {
+
+  font-size: 1.2em;
+  margin-left: 50px; 
+  text-align: left; 
+  margin-top: -15px;
+}
+
+#details_header_date {
+  margin-left: 50px;
+  font-size: 1.4em; 
+  margin-top: 5px; 
+  text-align: left;
+
+}
+
+#details_header_seatings {
+  margin-left: 50px;
+  font-size: 1.4em; 
+  margin-top: 5px; 
+  text-align: left;
+
+}
+
+#details_header {
+  margin-left: 0px;
+  font-size: 1.2em; 
+  margin-top: 5px; 
+  margin-left: 50px;
+  text-align: left;
+
+}
+  
+#ticket_text {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-top: -5px;
+  margin-left: 50px;
+  text-align: left;
+
+}
+
+#ticket {
+  padding-left: 10px;
+}
+
+#ticket_details {
+  margin-top: -30px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+#ticket_details p {
+  font-size: 1.0em; 
+  text-align: left; 
+  margin-top: 20px; 
+  line-height:20px; 
+  margin-left: 0px; 
+
+}
+
+#partners {
+  margin-left: 30px;
+}
+
+#ticket_background {
+  background: url("../img/groovepaper.png") repeat;
+
+}
+
 
  } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
