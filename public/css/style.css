@@ -51,7 +51,7 @@ span {
 
 h1 {
   font-family: 'Abril Fatface', cursive;
-  font-size: 7.3em;
+  font-size: 9em;
   text-align: left;
   font-weight: bold;
 
@@ -241,9 +241,11 @@ footer {
 
 }
 
-#foot {
+#foot span {
   
   letter-spacing: 5px;
+  margin-top: 4px;
+  margin-left: 20px !important;
 
 }
 
@@ -265,7 +267,7 @@ footer {
 
 .band_text {
   position: fixed;
-  bottom: 0px;
+  bottom: 5px;
   margin-left: 330px;
 
 }
@@ -285,7 +287,7 @@ footer {
   padding-left: 150px;
   color: white;
   background-color: #ff9933;
-  height: 60px;
+  height: 65px;
   -webkit-box-shadow: 0px 8px 92px -24px rgba(255,255,255,0.6);
 -moz-box-shadow: 0px 8px 92px -24px rgba(255,255,255,0.6);
 box-shadow: 0px 8px 92px -24px rgba(255,255,255,0.6);
@@ -295,3 +297,19 @@ box-shadow: 0px 8px 92px -24px rgba(255,255,255,0.6);
   position: relative;
   z-index: 999;
 }
+
+#ticket_background {
+  background: url("../img/groovepaper.png") repeat-x;
+}
+
+@media only screen and (max-width: 40em) {
+
+    h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 4.3em;
+  text-align: left;
+  font-weight: bold;
+
+}
+
+ } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
