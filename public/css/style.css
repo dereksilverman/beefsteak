@@ -648,6 +648,10 @@ button:hover, button:focus, .button:hover, .button:focus {
  }
 
 
- .fa-facebook-square {
+ .fa {
   color: black;
+ }
+
+ .fa:hover, .fa:focus {
+  color: #ff9933 !important;
  }
