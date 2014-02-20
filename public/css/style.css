@@ -165,34 +165,32 @@ animation:beefbeerfun 5s infinite;
 95% {background: url(../img/fun_txt.png);}
 }
 
-.graphict_test {
+.graphic_thankyou {
 margin: 0 auto;
-width:350px;
-height:300px;
+width:200px;
+height:100px;
+margin-top: 150px;
 margin-bottom: -20px;
-animation: 5s infinite;
--webkit-animation: 5s infinite; /* Safari and Chrome */
+animation: 2s infinite;
+-webkit-animation:thankyou 2s infinite; /* Safari and Chrome */
 }
 
-@keyframes 
+@keyframes thankyou
 {
-0%   {background: url(../img/cow.svg);}
-45%  {background: none;}
-50%  {background: url(../img/beer.svg);}
-100% {background: url(../img/fun.svg);}
+0%   {background: url(../img/thankyou.svg);}
+0%   {background: url(../img/thankyou.svg);}
+50%  {background: url(../img/thankyou.svg);}
+100%  {background: url(../img/thankyou.svg);}
 }
 
-@-webkit-keyframes 
+@-webkit-keyframes thankyou
 {
-0%   {background: url(../img/cow.svg);}
-30%  {background: url(../img/cow.svg);}
-31%  {background: none;}
-33%  {background: url(../img/beer.svg);}
-65%  {background: url(../img/beer.svg);}
-66%  {background: none;}
-95% {background: url(../img/fun.svg);}
-95% {background: url(../img/fun.svg);}
+0%   {background: url(../img/thankyou.svg);}
+0%   {background: url(../img/thankyou.svg);}
+50%  {background: url(../img/thankyou.svg);}
+100%  {background: url(../img/thankyou.svg);}
 }
+
 
 #test {
   width: 1000px;
@@ -236,7 +234,7 @@ margin: 0 0 .75rem;
 textarea[type=text] {
 
 padding: 20px!important;
-width: 60%;
+width: 80%;
 border: 0;
 font-family: proxima-nova,sans-serif;
 font-size: 16px;
@@ -261,7 +259,7 @@ margin: 0 0 .75rem;
   position: absolute;
   bottom: 0px;
   background-image: url("../img/handmadepaper.png");
-  height: 400px;
+  height: 450px;
   padding: 40px;
 }
 
@@ -288,10 +286,19 @@ footer {
 
 }
 
+a{
+  color: white;
+}
+
+a:hover {
+  color: #ff9933;
+}
+
+
 #overlay {
   width: 100%;
   position: absolute;
-  top: 170px;
+  top: 200px;
   height: 100px;
   margin: 0 auto;
   z-index: 999;
