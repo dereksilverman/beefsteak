@@ -464,7 +464,7 @@ button.radius, .button.radius {
 border-radius: 6px;
 }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 30em) {
 
     h1 {
     font-family: 'Abril Fatface', cursive;
@@ -641,3 +641,13 @@ footer {
 
 
  } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+
+button:hover, button:focus, .button:hover, .button:focus {
+  background-color: #ff9933 !important;
+ }
+
+
+ .fa-facebook-square {
+  color: black;
+ }

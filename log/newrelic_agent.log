@@ -3059,3 +3059,693 @@
 [02/20/14 09:53:41 -0500 dereks-air (16073)] INFO : Finished instrumentation
 [02/20/14 09:53:41 -0500 dereks-air (16073)] INFO : Doing deferred dependency-detection before Rack startup
 [02/20/14 09:53:41 -0500 dereks-air (16073)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Reading configuration from 
+[02/20/14 09:56:09 -0500 dereks-air (16098)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Enabling the Request Sampler.
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Environment: development
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Dispatcher: webrick
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Application: development
+[02/20/14 09:56:09 -0500 dereks-air (16098)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Installing Net instrumentation
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Installing Sinatra instrumentation
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Installing deferred Rack instrumentation
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Finished instrumentation
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 09:56:09 -0500 dereks-air (16098)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Reading configuration from 
+[02/20/14 10:03:09 -0500 dereks-air (16185)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Enabling the Request Sampler.
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Environment: development
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Dispatcher: webrick
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Application: development
+[02/20/14 10:03:09 -0500 dereks-air (16185)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Installing Net instrumentation
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Finished instrumentation
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:03:09 -0500 dereks-air (16185)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Reading configuration from 
+[02/20/14 10:03:32 -0500 dereks-air (16189)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Enabling the Request Sampler.
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Environment: development
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Dispatcher: webrick
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Application: development
+[02/20/14 10:03:32 -0500 dereks-air (16189)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Installing Net instrumentation
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Finished instrumentation
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:03:32 -0500 dereks-air (16189)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Reading configuration from 
+[02/20/14 10:03:34 -0500 dereks-air (16193)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Enabling the Request Sampler.
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Environment: development
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Dispatcher: webrick
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Application: development
+[02/20/14 10:03:34 -0500 dereks-air (16193)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Installing Net instrumentation
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Finished instrumentation
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:03:34 -0500 dereks-air (16193)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Reading configuration from 
+[02/20/14 10:03:51 -0500 dereks-air (16197)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Enabling the Request Sampler.
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Environment: development
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Dispatcher: webrick
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Application: development
+[02/20/14 10:03:51 -0500 dereks-air (16197)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Installing Net instrumentation
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Finished instrumentation
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:03:51 -0500 dereks-air (16197)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Reading configuration from 
+[02/20/14 10:03:53 -0500 dereks-air (16200)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Enabling the Request Sampler.
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Environment: development
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Dispatcher: webrick
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Application: development
+[02/20/14 10:03:53 -0500 dereks-air (16200)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Installing Net instrumentation
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Finished instrumentation
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:03:53 -0500 dereks-air (16200)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Reading configuration from 
+[02/20/14 10:03:57 -0500 dereks-air (16203)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Enabling the Request Sampler.
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Environment: development
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Dispatcher: webrick
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Application: development
+[02/20/14 10:03:57 -0500 dereks-air (16203)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Installing Net instrumentation
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Finished instrumentation
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:03:57 -0500 dereks-air (16203)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Reading configuration from 
+[02/20/14 10:05:00 -0500 dereks-air (16212)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Enabling the Request Sampler.
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Environment: development
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Dispatcher: webrick
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Application: development
+[02/20/14 10:05:00 -0500 dereks-air (16212)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Installing Net instrumentation
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Finished instrumentation
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:05:00 -0500 dereks-air (16212)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Reading configuration from 
+[02/20/14 10:05:06 -0500 dereks-air (16217)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Enabling the Request Sampler.
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Environment: development
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Dispatcher: webrick
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Application: development
+[02/20/14 10:05:06 -0500 dereks-air (16217)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Installing Net instrumentation
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Finished instrumentation
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:05:06 -0500 dereks-air (16217)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Reading configuration from 
+[02/20/14 10:05:24 -0500 dereks-air (16222)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Enabling the Request Sampler.
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Environment: development
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Dispatcher: webrick
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Application: development
+[02/20/14 10:05:24 -0500 dereks-air (16222)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Installing Net instrumentation
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Finished instrumentation
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:05:24 -0500 dereks-air (16222)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:05:31 -0500 dereks-air (16226)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:05:31 -0500 dereks-air (16226)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:05:31 -0500 dereks-air (16226)] INFO : Reading configuration from 
+[02/20/14 10:05:31 -0500 dereks-air (16226)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:05:31 -0500 dereks-air (16226)] INFO : Enabling the Request Sampler.
+[02/20/14 10:05:31 -0500 dereks-air (16226)] INFO : Environment: development
+[02/20/14 10:05:31 -0500 dereks-air (16226)] INFO : Dispatcher: webrick
+[02/20/14 10:05:31 -0500 dereks-air (16226)] INFO : Application: development
+[02/20/14 10:05:31 -0500 dereks-air (16226)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:05:31 -0500 dereks-air (16226)] INFO : Installing Net instrumentation
+[02/20/14 10:05:31 -0500 dereks-air (16226)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:05:31 -0500 dereks-air (16226)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:05:31 -0500 dereks-air (16226)] INFO : Finished instrumentation
+[02/20/14 10:05:32 -0500 dereks-air (16226)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:05:32 -0500 dereks-air (16226)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Reading configuration from 
+[02/20/14 10:05:51 -0500 dereks-air (16232)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Enabling the Request Sampler.
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Environment: development
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Dispatcher: webrick
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Application: development
+[02/20/14 10:05:51 -0500 dereks-air (16232)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Installing Net instrumentation
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Finished instrumentation
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:05:51 -0500 dereks-air (16232)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Reading configuration from 
+[02/20/14 10:06:00 -0500 dereks-air (16236)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Enabling the Request Sampler.
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Environment: development
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Dispatcher: webrick
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Application: development
+[02/20/14 10:06:00 -0500 dereks-air (16236)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Installing Net instrumentation
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Finished instrumentation
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:06:00 -0500 dereks-air (16236)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Reading configuration from 
+[02/20/14 10:06:07 -0500 dereks-air (16241)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Enabling the Request Sampler.
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Environment: development
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Dispatcher: webrick
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Application: development
+[02/20/14 10:06:07 -0500 dereks-air (16241)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Installing Net instrumentation
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Finished instrumentation
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:06:07 -0500 dereks-air (16241)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Reading configuration from 
+[02/20/14 10:06:14 -0500 dereks-air (16246)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Enabling the Request Sampler.
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Environment: development
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Dispatcher: webrick
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Application: development
+[02/20/14 10:06:14 -0500 dereks-air (16246)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Installing Net instrumentation
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Finished instrumentation
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:06:14 -0500 dereks-air (16246)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Reading configuration from 
+[02/20/14 10:06:20 -0500 dereks-air (16251)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Enabling the Request Sampler.
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Environment: development
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Dispatcher: webrick
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Application: development
+[02/20/14 10:06:20 -0500 dereks-air (16251)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Installing Net instrumentation
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Finished instrumentation
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:06:20 -0500 dereks-air (16251)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Reading configuration from 
+[02/20/14 10:06:55 -0500 dereks-air (16258)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Enabling the Request Sampler.
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Environment: development
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Dispatcher: webrick
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Application: development
+[02/20/14 10:06:55 -0500 dereks-air (16258)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Installing Net instrumentation
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Finished instrumentation
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:06:55 -0500 dereks-air (16258)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Reading configuration from 
+[02/20/14 10:08:40 -0500 dereks-air (16279)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Enabling the Request Sampler.
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Environment: development
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Dispatcher: webrick
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Application: development
+[02/20/14 10:08:40 -0500 dereks-air (16279)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Installing Net instrumentation
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Finished instrumentation
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:08:40 -0500 dereks-air (16279)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Reading configuration from 
+[02/20/14 10:58:18 -0500 dereks-air (16762)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Enabling the Request Sampler.
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Environment: development
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Dispatcher: webrick
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Application: development
+[02/20/14 10:58:18 -0500 dereks-air (16762)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Installing Net instrumentation
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Installing Sinatra instrumentation
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Installing deferred Rack instrumentation
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Finished instrumentation
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 10:58:18 -0500 dereks-air (16762)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Reading configuration from 
+[02/20/14 11:01:59 -0500 dereks-air (16872)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Enabling the Request Sampler.
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Environment: development
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Dispatcher: webrick
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Application: development
+[02/20/14 11:01:59 -0500 dereks-air (16872)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Installing Net instrumentation
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Installing Sinatra instrumentation
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Installing deferred Rack instrumentation
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Finished instrumentation
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 11:01:59 -0500 dereks-air (16872)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Reading configuration from 
+[02/20/14 11:02:24 -0500 dereks-air (16876)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Enabling the Request Sampler.
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Environment: development
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Dispatcher: webrick
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Application: development
+[02/20/14 11:02:24 -0500 dereks-air (16876)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Installing Net instrumentation
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Installing Sinatra instrumentation
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Installing deferred Rack instrumentation
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Finished instrumentation
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 11:02:24 -0500 dereks-air (16876)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Reading configuration from 
+[02/20/14 11:02:40 -0500 dereks-air (16880)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Enabling the Request Sampler.
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Environment: development
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Dispatcher: webrick
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Application: development
+[02/20/14 11:02:40 -0500 dereks-air (16880)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Installing Net instrumentation
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Installing Sinatra instrumentation
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Installing deferred Rack instrumentation
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Finished instrumentation
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 11:02:40 -0500 dereks-air (16880)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Reading configuration from 
+[02/20/14 11:02:47 -0500 dereks-air (16883)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Enabling the Request Sampler.
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Environment: development
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Dispatcher: webrick
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Application: development
+[02/20/14 11:02:47 -0500 dereks-air (16883)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Installing Net instrumentation
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Installing Sinatra instrumentation
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Installing deferred Rack instrumentation
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Finished instrumentation
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 11:02:47 -0500 dereks-air (16883)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Reading configuration from 
+[02/20/14 11:03:26 -0500 dereks-air (16887)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Enabling the Request Sampler.
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Environment: development
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Dispatcher: webrick
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Application: development
+[02/20/14 11:03:26 -0500 dereks-air (16887)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Installing Net instrumentation
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Installing Sinatra instrumentation
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Installing deferred Rack instrumentation
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Finished instrumentation
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 11:03:26 -0500 dereks-air (16887)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 11:03:29 -0500 dereks-air (16890)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 11:03:29 -0500 dereks-air (16890)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 11:03:29 -0500 dereks-air (16890)] INFO : Reading configuration from 
+[02/20/14 11:03:29 -0500 dereks-air (16890)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 11:03:29 -0500 dereks-air (16890)] INFO : Enabling the Request Sampler.
+[02/20/14 11:03:29 -0500 dereks-air (16890)] INFO : Environment: development
+[02/20/14 11:03:29 -0500 dereks-air (16890)] INFO : Dispatcher: webrick
+[02/20/14 11:03:29 -0500 dereks-air (16890)] INFO : Application: development
+[02/20/14 11:03:29 -0500 dereks-air (16890)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 11:03:29 -0500 dereks-air (16890)] INFO : Installing Net instrumentation
+[02/20/14 11:03:29 -0500 dereks-air (16890)] INFO : Installing Sinatra instrumentation
+[02/20/14 11:03:29 -0500 dereks-air (16890)] INFO : Installing deferred Rack instrumentation
+[02/20/14 11:03:29 -0500 dereks-air (16890)] INFO : Finished instrumentation
+[02/20/14 11:03:30 -0500 dereks-air (16890)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 11:03:30 -0500 dereks-air (16890)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Reading configuration from 
+[02/20/14 11:03:58 -0500 dereks-air (16893)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Enabling the Request Sampler.
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Environment: development
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Dispatcher: webrick
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Application: development
+[02/20/14 11:03:58 -0500 dereks-air (16893)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Installing Net instrumentation
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Installing Sinatra instrumentation
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Installing deferred Rack instrumentation
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Finished instrumentation
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 11:03:58 -0500 dereks-air (16893)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 11:13:52 -0500 dereks-air (16912)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 11:13:52 -0500 dereks-air (16912)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 11:13:52 -0500 dereks-air (16912)] INFO : Reading configuration from 
+[02/20/14 11:13:52 -0500 dereks-air (16912)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 11:13:52 -0500 dereks-air (16912)] INFO : Enabling the Request Sampler.
+[02/20/14 11:13:52 -0500 dereks-air (16912)] INFO : Environment: development
+[02/20/14 11:13:52 -0500 dereks-air (16912)] INFO : Dispatcher: webrick
+[02/20/14 11:13:52 -0500 dereks-air (16912)] INFO : Application: development
+[02/20/14 11:13:52 -0500 dereks-air (16912)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 11:13:53 -0500 dereks-air (16912)] INFO : Installing Net instrumentation
+[02/20/14 11:13:53 -0500 dereks-air (16912)] INFO : Installing Sinatra instrumentation
+[02/20/14 11:13:53 -0500 dereks-air (16912)] INFO : Installing deferred Rack instrumentation
+[02/20/14 11:13:53 -0500 dereks-air (16912)] INFO : Finished instrumentation
+[02/20/14 11:13:53 -0500 dereks-air (16912)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 11:13:53 -0500 dereks-air (16912)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Reading configuration from 
+[02/20/14 11:14:09 -0500 dereks-air (16917)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Enabling the Request Sampler.
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Environment: development
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Dispatcher: webrick
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Application: development
+[02/20/14 11:14:09 -0500 dereks-air (16917)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Installing Net instrumentation
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Installing Sinatra instrumentation
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Installing deferred Rack instrumentation
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Finished instrumentation
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 11:14:09 -0500 dereks-air (16917)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Reading configuration from 
+[02/20/14 11:14:31 -0500 dereks-air (16923)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Enabling the Request Sampler.
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Environment: development
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Dispatcher: webrick
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Application: development
+[02/20/14 11:14:31 -0500 dereks-air (16923)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Installing Net instrumentation
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Installing Sinatra instrumentation
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Installing deferred Rack instrumentation
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Finished instrumentation
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 11:14:31 -0500 dereks-air (16923)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Reading configuration from 
+[02/20/14 11:14:52 -0500 dereks-air (16937)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Enabling the Request Sampler.
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Environment: development
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Dispatcher: webrick
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Application: development
+[02/20/14 11:14:52 -0500 dereks-air (16937)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Installing Net instrumentation
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Installing Sinatra instrumentation
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Installing deferred Rack instrumentation
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Finished instrumentation
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 11:14:52 -0500 dereks-air (16937)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Reading configuration from 
+[02/20/14 12:12:02 -0500 dereks-air (1534)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Enabling the Request Sampler.
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Environment: development
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Dispatcher: webrick
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Application: development
+[02/20/14 12:12:02 -0500 dereks-air (1534)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Installing Net instrumentation
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Finished instrumentation
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:12:02 -0500 dereks-air (1534)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Reading configuration from 
+[02/20/14 12:16:44 -0500 dereks-air (1561)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Enabling the Request Sampler.
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Environment: development
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Dispatcher: webrick
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Application: development
+[02/20/14 12:16:44 -0500 dereks-air (1561)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Installing Net instrumentation
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Finished instrumentation
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:16:44 -0500 dereks-air (1561)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Reading configuration from 
+[02/20/14 12:17:17 -0500 dereks-air (1566)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Enabling the Request Sampler.
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Environment: development
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Dispatcher: webrick
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Application: development
+[02/20/14 12:17:17 -0500 dereks-air (1566)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Installing Net instrumentation
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Finished instrumentation
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:17:17 -0500 dereks-air (1566)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Reading configuration from 
+[02/20/14 12:18:37 -0500 dereks-air (1574)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Enabling the Request Sampler.
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Environment: development
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Dispatcher: webrick
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Application: development
+[02/20/14 12:18:37 -0500 dereks-air (1574)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Installing Net instrumentation
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Finished instrumentation
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:18:37 -0500 dereks-air (1574)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Reading configuration from 
+[02/20/14 12:19:08 -0500 dereks-air (1579)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Enabling the Request Sampler.
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Environment: development
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Dispatcher: webrick
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Application: development
+[02/20/14 12:19:08 -0500 dereks-air (1579)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Installing Net instrumentation
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Finished instrumentation
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:19:08 -0500 dereks-air (1579)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Reading configuration from 
+[02/20/14 12:19:46 -0500 dereks-air (1583)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Enabling the Request Sampler.
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Environment: development
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Dispatcher: webrick
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Application: development
+[02/20/14 12:19:46 -0500 dereks-air (1583)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Installing Net instrumentation
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Finished instrumentation
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:19:46 -0500 dereks-air (1583)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Reading configuration from 
+[02/20/14 12:19:53 -0500 dereks-air (1587)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Enabling the Request Sampler.
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Environment: development
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Dispatcher: webrick
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Application: development
+[02/20/14 12:19:53 -0500 dereks-air (1587)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Installing Net instrumentation
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Finished instrumentation
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:19:53 -0500 dereks-air (1587)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Reading configuration from 
+[02/20/14 12:20:28 -0500 dereks-air (1594)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Enabling the Request Sampler.
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Environment: development
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Dispatcher: webrick
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Application: development
+[02/20/14 12:20:28 -0500 dereks-air (1594)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Installing Net instrumentation
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Finished instrumentation
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:20:28 -0500 dereks-air (1594)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Reading configuration from 
+[02/20/14 12:20:54 -0500 dereks-air (1599)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Enabling the Request Sampler.
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Environment: development
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Dispatcher: webrick
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Application: development
+[02/20/14 12:20:54 -0500 dereks-air (1599)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Installing Net instrumentation
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Finished instrumentation
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:20:54 -0500 dereks-air (1599)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Reading configuration from 
+[02/20/14 12:21:00 -0500 dereks-air (1603)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Enabling the Request Sampler.
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Environment: development
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Dispatcher: webrick
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Application: development
+[02/20/14 12:21:00 -0500 dereks-air (1603)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Installing Net instrumentation
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Finished instrumentation
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:21:00 -0500 dereks-air (1603)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Reading configuration from 
+[02/20/14 12:21:00 -0500 dereks-air (1604)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Enabling the Request Sampler.
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Environment: development
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Dispatcher: webrick
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Application: development
+[02/20/14 12:21:00 -0500 dereks-air (1604)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Installing Net instrumentation
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Finished instrumentation
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:21:00 -0500 dereks-air (1604)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Reading configuration from 
+[02/20/14 12:21:06 -0500 dereks-air (1610)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Enabling the Request Sampler.
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Environment: development
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Dispatcher: webrick
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Application: development
+[02/20/14 12:21:06 -0500 dereks-air (1610)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Installing Net instrumentation
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Finished instrumentation
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:21:06 -0500 dereks-air (1610)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Reading configuration from 
+[02/20/14 12:21:16 -0500 dereks-air (1615)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Enabling the Request Sampler.
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Environment: development
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Dispatcher: webrick
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Application: development
+[02/20/14 12:21:16 -0500 dereks-air (1615)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Installing Net instrumentation
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Finished instrumentation
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:21:16 -0500 dereks-air (1615)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Reading configuration from 
+[02/20/14 12:22:11 -0500 dereks-air (1621)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Enabling the Request Sampler.
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Environment: development
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Dispatcher: webrick
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Application: development
+[02/20/14 12:22:11 -0500 dereks-air (1621)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Installing Net instrumentation
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Finished instrumentation
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:22:11 -0500 dereks-air (1621)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Reading configuration from 
+[02/20/14 12:22:13 -0500 dereks-air (1626)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Enabling the Request Sampler.
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Environment: development
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Dispatcher: webrick
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Application: development
+[02/20/14 12:22:13 -0500 dereks-air (1626)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Installing Net instrumentation
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Finished instrumentation
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:22:13 -0500 dereks-air (1626)] INFO : Installing middleware-based Excon instrumentation
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Starting the New Relic agent in "development" environment.
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Reading configuration from 
+[02/20/14 12:22:31 -0500 dereks-air (1631)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Enabling the Request Sampler.
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Environment: development
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Dispatcher: webrick
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Application: development
+[02/20/14 12:22:31 -0500 dereks-air (1631)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Installing Net instrumentation
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Installing Sinatra instrumentation
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Installing deferred Rack instrumentation
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Finished instrumentation
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Doing deferred dependency-detection before Rack startup
+[02/20/14 12:22:31 -0500 dereks-air (1631)] INFO : Installing middleware-based Excon instrumentation
