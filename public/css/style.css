@@ -464,7 +464,7 @@ button.radius, .button.radius {
 border-radius: 6px;
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 40em) {
 
     h1 {
     font-family: 'Abril Fatface', cursive;
