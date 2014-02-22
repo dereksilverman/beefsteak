@@ -24,6 +24,7 @@
 
 
 
+
   </head>
   
   <body>
@@ -55,6 +56,17 @@
 
 <script>
 
+      $(window).load(function(){
+
+  $('#overlay').hide();
+  $('#theband').hide();
+  $('#myModal').foundation('reveal', 'open');
+    });
+
+$( "body" ).click(function() {
+   $("#overlay").delay(5000).show().delay(1000).fadeOut();
+});
+
  $(".scroll").click(function(event) {
     event.preventDefault();
     $('html,body').animate( { scrollTop:$(this.hash).offset().top - 200 }, 500);
@@ -62,15 +74,6 @@
 
 $(document).foundation();
 $('img').addClass('animated fadeIn');
-$('#theband').hide();
-
-
-$(window).load(function(){
-
-  $('#overlay').fadeOut("slow");
-
-
-});
 
 var inView = false;
 

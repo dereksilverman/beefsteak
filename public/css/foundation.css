@@ -3040,8 +3040,8 @@ dialog, .reveal-modal {
     font-size: 1.375rem;
     line-height: 1;
     position: absolute;
-    top: 0.5rem;
-    right: 0.6875rem;
+    bottom:0.75rem;
+    right: 1rem;
     color: #aaaaaa;
     font-weight: bold;
     cursor: pointer; }
