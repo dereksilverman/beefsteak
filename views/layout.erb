@@ -18,10 +18,6 @@
     <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
     
-    <script type="text/javascript">var switchTo5x=true;</script>
-    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-    <script type="text/javascript">stLight.options({publisher: "8bc8d9da-fb73-4a33-8063-86c2d095fa74", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-
 
 
 
@@ -48,6 +44,7 @@
 
 <!-- JAVASCRIPT -->
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script src="/js/modernizr.js"></script>
 <script src="/js/foundation.min.js"></script>
 <script src="/js/jquery.smooth-scroll.js"></script>
@@ -56,15 +53,15 @@
 
 <script>
 
-      $(window).load(function(){
+$(window).load(function(){
 
-  $('#overlay').hide();
   $('#theband').hide();
+  $('.graphic_thankyou').show().delay(3000).fadeOut();
   $('#myModal').foundation('reveal', 'open');
     });
 
-$( "body" ).click(function() {
-   $("#overlay").delay(5000).show().delay(1000).fadeOut();
+$(".close-reveal-modal").click(function() {
+   $("#overlay").show().delay(3000).fadeOut();
 });
 
  $(".scroll").click(function(event) {
@@ -151,6 +148,11 @@ $(window).scroll(function() {
       });
 });
 
+var switchTo5x=true;
+stLight.options({publisher: "8bc8d9da-fb73-4a33-8063-86c2d095fa74", doNotHash: false, doNotCopy: false, hashAddressBar: false});
+
+
+
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -164,7 +166,6 @@ $(window).scroll(function() {
 
 
 
-</script>
 
 
 

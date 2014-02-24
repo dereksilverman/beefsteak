@@ -2,6 +2,7 @@ require 'bundler'
 Bundler.require
 #require './lib'
 require 'mandrill'
+require 'date'
 
 module BrooklynBeefsteak
   class Website < Sinatra::Application
@@ -9,6 +10,11 @@ module BrooklynBeefsteak
   # register Sinatra::Partial
 
     get '/' do
+
+    t = Date.new(2014,04,13)
+    now = Date.today
+    @days = t - now
+
 
      erb :index
     end
@@ -50,7 +56,6 @@ module BrooklynBeefsteak
     post '/' do
       email = params[:email]
     
-
       m = Mandrill::API.new 'Y-FIsuPkJEwZ4jhI0hRiVQ'
       message = {  
        :subject=> "Beefsteak Signup - #{email} ", 
@@ -71,12 +76,6 @@ module BrooklynBeefsteak
     
      erb :thankyou
     end
-
-    get '/thankyou' do
-
-        erb :thankyou
-    end
-
 
     get '/history' do
 

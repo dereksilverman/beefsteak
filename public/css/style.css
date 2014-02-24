@@ -255,9 +255,10 @@ margin: 0 0 .75rem;
 
 
 #myModal {
+  top: 175px;
   position: absolute;
   background-image: url("../img/handmadepaper.png");
-  height: 344px;
+  height: 260px;
   padding: 8px;
 }
 
@@ -640,10 +641,32 @@ footer {
 
  } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
+/*
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+  #arrow_down {
+    position: absolute;
+    bottom: 100px;
+    z-index: 999;
+
+    }
+*/
+
+
+
+
+
+}
+
 
 button:hover, button:focus, .button:hover, .button:focus {
   background-color: #ff9933 !important;
  }
+
+
+button:hover, button:focus, .button:hover, .button:focus {
+background-color: #ff9933 !important;
+}
 
 
  .fa {
@@ -658,10 +681,8 @@ button:hover, button:focus, .button:hover, .button:focus {
   display: none;
  }
 
-#overlay {
-  display: none;
-}
- #innerModal {
+
+#innerModal {
   padding: 20px;
   height: 324px;
  }
