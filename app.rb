@@ -36,7 +36,7 @@ module BrooklynBeefsteak
        :text=>"#{message}",  
        :to=>[  
          {  
-           :email=> "dereksilverman@gmail.com", "a.bdermont@gmail.com", 
+           :email=> "dereksilverman@gmail.com",
            :name=> "Derek Silverman" 
          }  
        ],  
