@@ -25,11 +25,11 @@ module BrooklynBeefsteak
     end
 
     post '/contact' do
-        full_name = params[:full_name]
-        email = params[:email]
-        message = params[:message]
+      full_name = params[:full_name]
+      email = params[:email]
+      message = params[:message]
 
-      m = Mandrill::API.new 'cY4MbZug1BvYM5_kaZKqrg'
+      m = Mandrill::API.new '0WAqGvA7RIUp0g4fMm0CBg'
       message = {  
        :subject=> "Beefsteak Signup - #{email} (#{full_name}) ", 
        :from_name=> "Beef Dudes",  
@@ -41,7 +41,7 @@ module BrooklynBeefsteak
          }  
        ],  
        :html=>"#{message}",  
-       :from_email=>"info@brooklynbeefsteak.com"  
+       :from_email=>"derek@brooklynbeefsteak.com"  
       }
 
       sending = m.messages.send message  
@@ -55,8 +55,12 @@ module BrooklynBeefsteak
 
     post '/' do
       email = params[:email]
+
+       t = Date.new(2014,04,13)
+      now = Date.today
+      @days_thanks = t - now
     
-      m = Mandrill::API.new 'cY4MbZug1BvYM5_kaZKqrg'
+      m = Mandrill::API.new '0WAqGvA7RIUp0g4fMm0CBg'
       message = {  
        :subject=> "#{email}", 
        :from_name=> "Beef Dudes",  
@@ -68,7 +72,7 @@ module BrooklynBeefsteak
          }  
        ],  
        :html=>"#{email}",  
-       :from_email=>"info@brooklynbeefsteak.com"  
+       :from_email=>"derek@brooklynbeefsteak.com"  
       }
 
       sending = m.messages.send message  
@@ -76,6 +80,16 @@ module BrooklynBeefsteak
     
      erb :thankyou
     end
+
+    get '/thankyou' do
+
+      time = Date.new(2014,04,13)
+      time_now = Date.today
+      @days_thanks = time - time_now
+
+     erb :thankyou
+    end
+
 
     get '/history' do
 
