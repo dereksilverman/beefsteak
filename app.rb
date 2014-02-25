@@ -56,11 +56,11 @@ module BrooklynBeefsteak
     post '/' do
       email = params[:email]
     
-      m = Mandrill::API.new 'Y-FIsuPkJEwZ4jhI0hRiVQ'
+      m = Mandrill::API.new 'cY4MbZug1BvYM5_kaZKqrg'
       message = {  
        :subject=> "#{email}", 
        :from_name=> "Beef Dudes",  
-       :text=>"#{email} ",  
+       :text=>"#{email}",  
        :to=>[  
          {  
            :email=> "dereksilverman@gmail.com",  
