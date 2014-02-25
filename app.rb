@@ -31,12 +31,12 @@ module BrooklynBeefsteak
 
       m = Mandrill::API.new '0WAqGvA7RIUp0g4fMm0CBg'
       message = {  
-       :subject=> "Beefsteak Signup - #{email} (#{full_name}) ", 
+       :subject=> "Beefsteak Contact Form - #{email} (#{full_name}) ", 
        :from_name=> "Beef Dudes",  
        :text=>"#{message}",  
        :to=>[  
          {  
-           :email=> "dereksilverman@gmail.com",  
+           :email=> "dereksilverman@gmail.com", "a.bdermont@gmail.com", 
            :name=> "Derek Silverman" 
          }  
        ],  
