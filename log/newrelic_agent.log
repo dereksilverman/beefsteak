@@ -11459,3 +11459,108 @@
 [04/01/14 22:50:06 -0400 Dereks-MacBook-Air.local (40033)] INFO : Finished instrumentation
 [04/01/14 22:50:06 -0400 Dereks-MacBook-Air.local (40033)] INFO : Doing deferred dependency-detection before Rack startup
 [04/01/14 22:50:06 -0400 Dereks-MacBook-Air.local (40033)] INFO : Installing middleware-based Excon instrumentation
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Starting the New Relic agent in "development" environment.
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Reading configuration from 
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Enabling the Request Sampler.
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Environment: development
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Dispatcher: webrick
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Application: development
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Installing Net instrumentation
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Installing Sinatra instrumentation
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Installing deferred Rack instrumentation
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Finished instrumentation
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Doing deferred dependency-detection before Rack startup
+[04/01/14 22:53:20 -0400 Dereks-MacBook-Air.local (40173)] INFO : Installing middleware-based Excon instrumentation
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Starting the New Relic agent in "development" environment.
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Reading configuration from 
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Enabling the Request Sampler.
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Environment: development
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Dispatcher: webrick
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Application: development
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Installing Net instrumentation
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Installing Sinatra instrumentation
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Installing deferred Rack instrumentation
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Finished instrumentation
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Doing deferred dependency-detection before Rack startup
+[04/01/14 22:53:28 -0400 Dereks-MacBook-Air.local (40176)] INFO : Installing middleware-based Excon instrumentation
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Starting the New Relic agent in "development" environment.
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Reading configuration from 
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Enabling the Request Sampler.
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Environment: development
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Dispatcher: webrick
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Application: development
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Installing Net instrumentation
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Installing Sinatra instrumentation
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Installing deferred Rack instrumentation
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Finished instrumentation
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Doing deferred dependency-detection before Rack startup
+[04/01/14 22:54:10 -0400 Dereks-MacBook-Air.local (40195)] INFO : Installing middleware-based Excon instrumentation
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Starting the New Relic agent in "development" environment.
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Reading configuration from 
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Enabling the Request Sampler.
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Environment: development
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Dispatcher: webrick
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Application: development
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Installing Net instrumentation
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Installing Sinatra instrumentation
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Installing deferred Rack instrumentation
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Finished instrumentation
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Doing deferred dependency-detection before Rack startup
+[04/01/14 22:55:15 -0400 Dereks-MacBook-Air.local (40205)] INFO : Installing middleware-based Excon instrumentation
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] INFO : Starting the New Relic agent in "development" environment.
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] INFO : Reading configuration from 
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] INFO : Enabling the Request Sampler.
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] INFO : Environment: development
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] INFO : Dispatcher: webrick
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] INFO : Application: development
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] INFO : Installing Net instrumentation
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] INFO : Installing Sinatra instrumentation
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] INFO : Installing deferred Rack instrumentation
+[04/01/14 22:55:45 -0400 Dereks-MacBook-Air.local (40211)] INFO : Finished instrumentation
+[04/01/14 22:55:46 -0400 Dereks-MacBook-Air.local (40211)] INFO : Doing deferred dependency-detection before Rack startup
+[04/01/14 22:55:46 -0400 Dereks-MacBook-Air.local (40211)] INFO : Installing middleware-based Excon instrumentation
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Starting the New Relic agent in "development" environment.
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Reading configuration from 
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Enabling the Request Sampler.
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Environment: development
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Dispatcher: webrick
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Application: development
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Installing Net instrumentation
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Installing Sinatra instrumentation
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Installing deferred Rack instrumentation
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Finished instrumentation
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Doing deferred dependency-detection before Rack startup
+[04/02/14 09:12:02 -0400 dereks-air.nyc.rr.com (41775)] INFO : Installing middleware-based Excon instrumentation
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Starting the New Relic agent in "development" environment.
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Reading configuration from 
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] ERROR : Unable to read configuration file : Is a directory - /Users/dereksilverman/Projects/Sinatra/BrooklynBeefsteak
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Enabling the Request Sampler.
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Environment: development
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Dispatcher: webrick
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Application: development
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Installing Net instrumentation
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Installing Sinatra instrumentation
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Installing deferred Rack instrumentation
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Finished instrumentation
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Doing deferred dependency-detection before Rack startup
+[04/02/14 09:12:03 -0400 dereks-air.nyc.rr.com (41778)] INFO : Installing middleware-based Excon instrumentation
