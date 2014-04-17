@@ -101,5 +101,11 @@ module BrooklynBeefsteak
      erb :press
     end
 
+
+    get '/stats' do
+
+     erb :stats
+    end
+
 	end
 end
