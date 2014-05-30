@@ -29,7 +29,7 @@ module BrooklynBeefsteak
       email = params[:email]
       message = params[:message]
 
-      m = Mandrill::API.new '0WAqGvA7RIUp0g4fMm0CBg'
+      m = Mandrill::API.new ENV['MANDRILL_APIKEY']
       message = {  
        :subject=> "Beefsteak Contact Form - #{email} (#{full_name}) ", 
        :from_name=> "Beef Dudes",  
