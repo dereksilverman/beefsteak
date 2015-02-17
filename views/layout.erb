@@ -6,124 +6,53 @@
      <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/foundation.css">
     <link rel="stylesheet" href="/css/animate.min.css" >
     <link rel="stylesheet" href="/css/style.css" >
     <!-- GOOGLE FONTS -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script src="/js/modernizr.js"></script>
+    <script src="/js/jquery.smooth-scroll.js"></script>
+    <script src="/js/jquery.slides.min.js"></script>
 
   </head>
   
   <body>
 
   <%= yield %>
-
+  
   <footer>
-
-       <div id="foot">
-                  <a href="http://www.ticketfly.com/purchase/event/504321?utm_medium=bks&wrKey=250D8692682B439BC1140E0B6BD11FB1"><span>Tickets</span></a>
-                  <a href="/history"><span class="foot">History</span></a>
-                  <a href="/contact"><span class="foot">Contact</span></a>
-                  <a href="/thankyou" data-reveal-id="myModal" data-reveal><span class="foot">Mailing List</span></a><!-- <span class="foot">Site Map</span> -->
-                   <br><br>
-         <br><br>
+    <div class="container">
+      <div class="pull-right" style="margin-right: 0px">
+        <span>
+        <a href="http://www.ticketfly.com/purchase/event/504321?utm_medium=bks&wrKey=250D8692682B439BC1140E0B6BD11FB1"><span>TICKETS</span></a>
+        <a href="/history"><span class="foot">HISTORY</span></a>
+        <a href="/contact"><span class="foot">CONTACT</span></a>
       </div>
-  </footer>
+    </div>
+</footer>
 
 
 </body>
-
-<!-- JAVASCRIPT -->
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script src="/js/modernizr.js"></script>
-<script src="/js/foundation.min.js"></script>
-<script src="/js/jquery.smooth-scroll.js"></script>
-<script src="/js/jquery.slides.min.js"></script>
-
 
 <script>
 
 $(window).load(function(){
 
-  $('#theband').hide();
-  $('.graphic_thankyou').show().delay(3000).fadeOut();
-  $('#myModal').foundation('reveal', 'open');
-    });
-
-$(".close-reveal-modal").click(function() {
-   $("#overlay").show().delay(3000).fadeOut();
 });
-
- $(".scroll").click(function(event) {
-    event.preventDefault();
-    $('html,body').animate( { scrollTop:$(this.hash).offset().top - 200 }, 500);
-    } );
-
-$(document).foundation();
-$('img').addClass('animated fadeIn');
-
-var inView = false;
-
-function isScrolledIntoView(elem)
-{
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
-}
-
-$(window).scroll(function() {
-    if (isScrolledIntoView('#trigger_band')) {
-        if (inView) { return; }
-        inView = true;
-        $("#theband").fadeIn();
-    } else {
-        inView = false;  
-    }
-});
-
-
-// $(window).scroll(function() {
-//     if (isScrolledIntoView('#partners')) {
-//         if (inView) { return; }
-//         inView = true;
-//         $("#theband").fadeOut();
-//     } else {
-//         inView = false;  
-//     }
-// });
-
-
-$(window).scroll(function() {
-    if (isScrolledIntoView('#partners')) {
-        if (inView) { return; }
-        inView = true;
-        $("footer").css("margin-top:","-80px");
-    } else {
-        inView = false;  
-    }
-});
-
-$(window).scroll(function() {
-    if (isScrolledIntoView('#slides')) {
-        if (inView) { return; }
-        inView = true;
-        $("#theband").fadeOut();
-    } else {
-        inView = false;  
-    }
-});
-
 
     $(function(){
       $("#slides").slidesjs({
@@ -135,7 +64,7 @@ $(window).scroll(function() {
           active: false,
           effect: "slide",
           auto: true,
-          interval: 5000,
+          interval: 10000,
           swap: true
         },
       slide: {
