@@ -81,7 +81,8 @@ img.coming {
     width: 200px;
     margin-top: -10px;
     position: relative;
-    top: -20px;
+    top:-10px;
+    margin-bottom: 20px;
 }
 
 li {
@@ -97,13 +98,14 @@ li {
     background-color: transparent;
     border: none;
     border-radius: 0px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: #523D29;
     font-family: 'Oswald', sans-serif;
-    font-size: 12px;
+    font-size: 8px;
+    text-align: center;
 }
 
 .second-section {
@@ -135,7 +137,7 @@ li {
     right:0;
     margin-left:auto;
     margin-right:auto;
-    width: 300px;
+    width: 265px;
 }
 
 .headline {
@@ -158,7 +160,7 @@ li {
     margin: 0 auto;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 .cities span {
@@ -250,16 +252,21 @@ li {
     }
 
     .pull-right {
-        margin-right: 180px;
+        margin-right: 195px;
     }
 
     .beefsteak-bar {
         font-size: 12px !important;
     }
 
+    .navbar-default {
+        margin-top: 50px;
+    }
+
     .navbar-default .navbar-nav>li>a {
         font-size: 12px;
         padding-bottom: 0px !important;
+        text-align: none;
     }
 
     .cities {
