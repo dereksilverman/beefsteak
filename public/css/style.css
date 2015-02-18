@@ -180,14 +180,14 @@ li {
 }
 
 input {
-    width: 80%;
+    width: 60%;
     padding-left: 10px;
 }
 
 button {
     font-family: "Oswald";
     border: none;
-    background: none
+    background: none;
 }
 
 
