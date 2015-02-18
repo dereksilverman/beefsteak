@@ -170,7 +170,8 @@ li {
     margin: 0px 8px;
 }
 
-.cities span:hover {
+.cities span:hover,
+.footer-info span:hover {
     color: #F5A623;
     cursor: pointer;
 }
