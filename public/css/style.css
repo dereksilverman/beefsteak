@@ -1,5 +1,5 @@
 body { 
-    background-color: #FAF4E9;
+    background: url("../img/background.png") center top fixed;
 }
 
 footer {
@@ -179,12 +179,24 @@ li {
     font-family: "Oswald";
 }
 
+input {
+    width: 80%;
+    padding-left: 10px;
+}
+
+button {
+    font-family: "Oswald";
+    border: none;
+    background: none
+}
+
 
 
 @media (min-width: 768px) {
     .container {
-        width: 100%;
+        width: 980px;
     }
+
 }
 
 @media (min-width: 1200px) {

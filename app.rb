@@ -21,7 +21,7 @@ module BrooklynBeefsteak
 
     get '/contact' do
 
-        erb :contact
+        erb :index
     end
 
     post '/contact' do
@@ -48,7 +48,7 @@ module BrooklynBeefsteak
       puts sending
     
 
-        erb :thankyou
+        erb :index
     end
 
 
@@ -78,16 +78,7 @@ module BrooklynBeefsteak
       sending = m.messages.send message  
       puts sending
     
-     erb :thankyou
-    end
-
-    get '/thankyou' do
-
-      time = Date.new(2014,04,13)
-      time_now = Date.today
-      @days_thanks = time - time_now
-
-     erb :thankyou
+     erb :index
     end
 
 

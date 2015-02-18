@@ -9,7 +9,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="beefsteak-bar">
           <ul class="nav navbar-nav pull-right hidden-xs">
-            <li class=""><a href="#">IN ASSOCIATION WITH BROOKLN BREWERY'S THE MASH</a></li>
+            <li class=""><a href="#">ALL YOU CAN EAT // ALL YOU CAN STAND </a></li>
           </ul>
           <ul class="nav navbar-nav hidden-md hidden-sm hidden-lg">
             <li class=""><a href="#">IN ASSOCIATION WITH BROOKLN BREWERY'S THE MASH</a></li>
@@ -26,10 +26,10 @@
         </div>
 
         <div id="slides" class="slider_container">
-            <img class="camera" src="/img/girl.png">
-            <img class="camera" src="/img/camera2.png">
-            <img class="jumbotron-people" src="/img/band_cutout.png">
-            <img class="jumbotron-people" src="/img/band_people.png">
+          <img class="camera" src="/img/camera2.png">
+          <img class="jumbotron-people" src="/img/band_cutout.png">
+          <img class="jumbotron-people" src="/img/band_people.png">
+          <img class="camera" src="/img/girl.png">
         </div>
     </div>
 </div>
@@ -63,6 +63,14 @@
            <br/><br/>
            So tie on your aprons*, forget your forks and knives, and belly up for a boisterous taste of beefsteak tradition.
         </p>
+
+
+      <form class="main-body-paragraph" method="POST" style="padding-top: 20px;">
+        Stay in the know! More information coming soon!<br/><br/>
+        <input id="POST-email" type="text" name="email" placeholder="Enter email address" />
+        <button class="email-submit" type="submit" value="Submit" class="button radius tiny" style="float: right;">Submit</button>
+      </form>
+
     </div>
 
 <!--     <div style="text-align: center">
@@ -75,7 +83,7 @@
           <iframe width="72%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/141676229&amp;color=ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
     </div> -->
 
-    <div class="container partner-container">
+<!--     <div class="container partner-container">
         <div class="partners">
             <h2 class="partners-headline">
                 OUR FRIENDS & PARTNERS
@@ -94,7 +102,27 @@
                     </span>
                 </div>
               </div>
-    </div>
+    </div> -->
 </div>
+
+
+<script>
+
+$(".email-submit").submit(function() {
+
+    var url = "/contact"; // the script where you handle the form input.
+
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: $("#POST-email").serialize(), // serializes the form's elements.
+           success: function(data)
+           {
+               
+           }
+         });
+
+
+</script>
 
 
