@@ -5,8 +5,9 @@ body {
 footer {
     border-top: 4px solid #F5A623;
     background-color: #33291E;
-    height: 60px;
+    height: 80px;
     padding-top: 20px;
+    text-align: center;
 }
 
 footer span {
@@ -170,6 +171,10 @@ li {
     margin: 0px 8px;
 }
 
+.footer-info {
+
+}
+
 .cities span:hover,
 .footer-info span:hover {
     color: #F5A623;
@@ -181,7 +186,7 @@ li {
 }
 
 input {
-    width: 60%;
+    width: 65%;
     padding-left: 10px;
 }
 
@@ -194,6 +199,12 @@ button {
 
 
 @media (min-width: 768px) {
+
+    footer {
+        height: 60px;
+    }
+
+
     .container {
         width: 980px;
     }
@@ -210,16 +221,19 @@ button {
     }
 
 
-.breaker {
-    height: 2px;
-    position: relative;
-    background-color: #383838;
-    width: 600px;
-    left: 375px;
-    top: -23px;
-    width: 450px;
-}
+    .breaker {
+        height: 2px;
+        position: relative;
+        background-color: #383838;
+        width: 600px;
+        left: 375px;
+        top: -23px;
+        width: 450px;
+    }
 
+    footer {
+        text-align: left;
+    }
 
     .mash-logo {
         width: 200px;
