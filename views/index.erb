@@ -18,34 +18,36 @@
       </div>
     </nav>
 
-    <div class="container">
-        <div class="jumbotron-logo">
-            <img class="coming" src="/img/coming.png">
-            <img class="beefsteak-logo animated infinite bounce" src="/img/appearing copy.png">
-            <img class="mash animated infinite bounce" src="/img/mash-logo.svg" style="display: none">
-        </div>
+    <a href="/">
+        <div class="container">
+            <div class="jumbotron-logo">
+                <img class="coming" src="/img/coming.png">
+                <img class="beefsteak-logo animated infinite bounce" src="/img/appearing copy.png">
+                <img class="mash animated infinite bounce" src="/img/mash-logo.svg" style="display: none">
+            </div>
 
-        <div id="slides" class="slider_container">
-          <img class="camera" src="/img/camera2.png">
-          <img class="jumbotron-people" src="/img/band_cutout.png">
-          <img class="jumbotron-people" src="/img/band_people.png">
-          <img class="camera" src="/img/girl.png">
+            <div id="slides" class="slider_container">
+              <img class="camera" src="/img/camera2.png">
+              <img class="jumbotron-people" src="/img/band_cutout.png">
+              <img class="jumbotron-people" src="/img/band_people.png">
+              <img class="camera" src="/img/girl.png">
+            </div>
         </div>
-    </div>
+    </a>
 </div>
 
 
 <div class="container second-section">
     <div class="cities">
         <a class="js-tickets-on-sale" href=""><span>NEW ORLEANS</span></a>
-        <span>LONDON</span>
-        <span>STOCKHOLM</span>
-        <span>BOSTON</span>
-        <span>PHILADELPHIA</span>
-        <span>WASHINGTON, DC</span>
-        <span>CHICAGO</span>
-        <span>AUSTIN</span>
-        <span>BROOKLYN</span>
+        <span data-toggle="tooltip" data-placement="bottom" title="Tickets On Sale Soon!">LONDON</span>
+        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">STOCKHOLM</span>
+        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">BOSTON</span>
+        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">PHILADELPHIA</span>
+        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">WASHINGTON, DC</span>
+        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">CHICAGO</span>
+        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">AUSTIN</span>
+        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">BROOKLYN</span>
     </div>
         <img class="tickets-on-sale hidden-xs hidden-sm" src="/img/tickets_nola.png">
         <button type="submit" value="Submit" class="mobile-ticket-button button radius tiny hidden-md hidden-lg js-tickets-on-sale" style="margin-bottom: 20px">New Orleans Tickets On Sale Now</button>
@@ -175,6 +177,10 @@ $(".js-tickets-on-sale").click(function(e) {
     $(".tickets").show();
 
 });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 </script>
 
