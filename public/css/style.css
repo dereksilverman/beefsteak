@@ -14,7 +14,6 @@ footer {
 
 footer span {
     font-family: "Oswald", sans-serif;
-    margin: 10px;
     color: white;
     font-size: 12px;
     text-align: center;
@@ -80,8 +79,6 @@ img.tickets-on-sale {
     left: 40px;
     margin-bottom: 20px;
 }
-
-
 
 li {
     list-style: none;
@@ -167,7 +164,7 @@ li {
     display: block;
     margin: 0 auto;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 70px;
 }
 
@@ -182,6 +179,7 @@ li {
 
 }
 
+
 .cities span:hover,
 .footer-info span:hover {
     color: #F5A623;
@@ -190,6 +188,24 @@ li {
 
 .ladies {
     font-family: "Oswald";
+    font-size: 20px;
+}
+
+.ticket-details {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 100;
+    padding: 10px 2px;
+    padding-top: 0px;
+    margin-bottom: 10px; 
+}
+
+.included {
+    font-family:'Oswald', sans-serif; 
+    font-size: 1em; 
+    text-align: left; 
+    padding-bottom: 10px;
 }
 
 #POST-email {
@@ -203,11 +219,14 @@ button {
     background-color: #F16521;
     color: white;
     width: 100%;
-    height: 48px;
 }
 
 button:hover {
     color: #E5E5E5;
+}
+
+.mobile-ticket-button {
+    height: 48px;
 }
 
 .ticket-header {
@@ -216,7 +235,7 @@ button:hover {
 
 
 .date {
-    font-size: 24px;
+    font-size: 14px;
     font-family: 'Old Standard TT', serif;
     margin-left: 20px; 
 }
@@ -255,8 +274,33 @@ a:hover {
 
 @media (min-width: 1200px) {
 
-    .partners-headline {
-        width: 735px;
+    button {
+        height: 48px;
+    }
+
+    footer span {
+        margin: 10px;
+    }
+
+    .date {
+        font-size: 24px;
+        font-family: 'Old Standard TT', serif;
+        margin-left: 20px; 
+    }
+
+
+    .ticket-details {
+    font-size: 28px;
+    line-height: 32px;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 100;
+    padding: 10px 2px;
+    padding-top: 0px;
+    margin-bottom: 40px; 
+    }
+
+    .tickets {
+        padding: 20px 120px
     }
 
     .partner-container {
@@ -278,6 +322,11 @@ a:hover {
         width: 250px;
     }
 
+    .music-headline {
+        font-family:'Oswald', sans-serif; 
+        font-size: 0.8em; 
+    }
+
 
     .partners-headline {
         font-family:'Oswald', sans-serif; 
@@ -285,6 +334,7 @@ a:hover {
         text-align: left; 
         margin-left: 110px;
         margin-bottom: 80px;
+        width: 735px;
     }
 
     .included {
