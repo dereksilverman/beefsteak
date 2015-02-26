@@ -1,7 +1,6 @@
 body { 
     background: url("../img/background2.png") center top fixed;
-    overflow: scroll;
-    overflow-x: hidden;
+    background: cover;
 }
 
 footer {
