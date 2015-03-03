@@ -188,6 +188,7 @@ li {
 .ladies {
     font-family: "Oswald";
     font-size: 20px;
+    line-height: 40px;
 }
 
 .ticket-details {
@@ -285,9 +286,9 @@ a:hover {
     }
 
     .date {
-        font-size: 24px;
+        font-size: 18px;
         font-family: 'Old Standard TT', serif;
-        margin-left: 20px; 
+        margin-left: 34px; 
     }
 
 
@@ -419,6 +420,7 @@ a:hover {
 
     .beefsteak-bar {
         font-size: 12px !important;
+        font-family: 'Oswald', serif;
     }
 
     .navbar-default {
@@ -448,6 +450,37 @@ a:hover {
     .ladies {
         font-family: 'Abril Fatface', serif;
         font-size: 50px;
+        line-height: 56px;
+    }
+
+    .main-feature-aside {
+        font-family: 'Oswald', serif;
+        font-size: 28px;
+        line-height: 32px;
+        float: left;
+        width: 350px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        border-left: 1px solid black;
+    }
+
+    .feature-aside {
+        font-family: 'Oswald', serif;
+        font-size: 38px;
+        line-height: 42px;
+        float: left;
+        width: 350px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        border-left: 1px solid black;
+    }
+
+    .small-text {
+        font-family: 'Old Standard TT', sans-serif;
+        font-size: 14px;
+        margin-left: 50px;
     }
 
     .main-body-paragraph {
