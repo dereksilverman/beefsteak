@@ -107,9 +107,9 @@
 
       <div class="tickets" style="display: none;">
 
-        <div class="beefsteak-bar main">
+        <div class="beefsteak-bar back">
           <ul class="hidden-xs" style="margin-left: -40px">
-            <li class="back">BACK TO MAIN PAGE</li>
+            <!-- <li>BACK TO MAIN PAGE</li> -->
           </ul>
         </div>  
 
@@ -132,15 +132,15 @@
         So forget your forks and knives, tie on your aprons, and laissez les Beefsteak rouler!
         </div>
 
-        <div class="ticket-details" style="margin-top: 20px"><div class="included">What's included in the ticket price?</div>3 hours of endless choice beef cuts, bottomless pints of Brooklyn Brewery oat soda, assorted sides, and your own beefsteak apron (for poolside summer grillin'). 
+        <div class="ticket-details" style="margin-top: 20px"><div class="included">What's included in the ticket price?</div>Three hours of endless choice beef cuts, bottomless pints of Brooklyn Brewery oat soda  and your own beefsteak apron (for poolside summer grillin'). 
         </div>
       </div>
 
     <div class="main-body-paragraph history" style="padding-bottom: 0px; display: none">
 
-        <div class="beefsteak-bar main">
+        <div class="beefsteak-bar back">
           <ul class="hidden-xs" style="margin-left: -40px">
-            <li class="back">BACK TO MAIN PAGE</a>
+            <!-- <li>BACK TO MAIN PAGE</a> -->
           </ul>
         </div>  
 
@@ -164,8 +164,8 @@
             In any case, the institution was essentially masculine until 1920, when it was debased by the Eighteenth and Nineteenth Amendments to the Constitution of the United States. The Eighteenth Amendment brought about mixed drinking; a year and a half after it went into effect, the salutation “We Greet Our Better Halves” began to appear on the souvenir menus of beefsteaks thrown by bowling, fishing, and chowder clubs and lodges and labor unions. <br><br>The big, exuberant beefsteaks thrown by Tammany and Republican district clubs always had been strictly stag, but not long after the Nineteenth Amendment gave women the suffrage, politicians decided it would be nice to invite females over voting age to clubhouse beefsteaks. “Womenfolks didn’t know what a beefsteak was until they got the right to vote.” An old chef once said…”
             <br/><br/>
 
-            <span class="feature-aside" style="float: right; padding: 0px 20px; border-left: none;"> 
-                <span class="ladies" style="font-size: 40px">beefsteak</span> - a cut of rare beef dipped in hot butter and Worcestershire sauce, served over a crusty slice of bread.</span>  
+            <span class="feature-aside" style="float: right; padding: 0px 30px; border-left: none;"> 
+                <span class="ladies" style="font-size: 40px">beefsteak</span> - both the name of the event and the featured menu item — a slice of rare steak dipped in hot butter and Worcestershire sauce, served atop a crusty slice of bread.</span>  
             </span>
 
 
@@ -276,14 +276,11 @@ $(".js-history-click").click(function(e) {
     $(".tickets").hide();
 });
 
-$(".back").click(function(e) {
-    e.preventDefault();
-    $(".mobile-ticket-button").hide();
-    $(".main-body-paragraph").show();
-    $(".partner-container").show();
-    $(".history").hide();
-    $(".tickets").hide();
-});
+// $(".back").click(function(e) {
+//     e.preventDefault();
+//     $(".mobile-ticket-button").show();
+//     $(".history").hide();
+// });
 
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
