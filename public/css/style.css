@@ -18,6 +18,7 @@ footer span {
     text-align: center;
 }
 
+
 .partners-headline {
     font-family:'Oswald', sans-serif; 
     font-size: 0.7em; 
@@ -40,7 +41,6 @@ footer span {
     top: -63px;
     width: 100px;
 }
-
 
 .master-container {
     background-image: url("../img/background-texture.png");
@@ -68,6 +68,24 @@ img.coming {
     position: relative;
     top:-10px;
     margin-bottom: 20px;
+}
+
+img.stars {
+    width: 100%;
+    text-decoration: center;
+    margin-top: -80px;
+    position: relative;
+    top:55px;
+}
+
+.stars-text {
+    color: black;
+    margin-top: -20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: -5px;
 }
 
 img.tickets-on-sale {
@@ -132,16 +150,15 @@ li {
     padding: 10px 2px;
 }
 
-
-
 .beefsteak-logo {
-    margin-top: 40px;
+    margin-top: 400px;
     position: absolute;
     left:0;
     right:0;
     margin-left:auto;
     margin-right:auto;
     width: 265px;
+    top: 50px;
 }
 
 .headline {
@@ -404,8 +421,17 @@ a:hover {
     }
 
     .beefsteak-logo {
-        margin-top: -40px !important;
+        margin-top: 50px !important;
+        top: 100px;
         width: 600px;
+    }
+
+    img.stars {
+    width: 800px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: -110px;
+    position: relative;
     }
 
     #slides {
@@ -472,6 +498,7 @@ a:hover {
         float: left;
         width: 350px;
         margin-right: 40px;
+        margin-top: 40px;
         margin-bottom: 30px;
         padding-left: 20px;
         border-left: 1px solid black;
