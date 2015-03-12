@@ -43,14 +43,13 @@
 <div class="container second-section">
     <div class="cities">
         <a class="js-tickets-on-sale" href=""><span>NEW ORLEANS</span></a>
-        <span data-toggle="tooltip" data-placement="bottom" title="Tickets On Sale Soon!">LONDON</span>
-        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">STOCKHOLM</span>
-        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">BOSTON</span>
-        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">PHILADELPHIA</span>
-        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">WASHINGTON, DC</span>
-        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">CHICAGO</span>
-        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">AUSTIN</span>
-        <span data-toggle="tooltip" data-placement="bottom" title="More Details To Come!">BROOKLYN</span>
+        <a href="http://eepurl.com/bgPMGv"><span>LONDON</span></a>
+        <a href="http://eepurl.com/bgPMGv"><span>BOSTON</span></a>
+        <a href="http://eepurl.com/bgPMGv"><span>PHILADELPHIA</span></a>
+        <a href="http://eepurl.com/bgPMGv"><span>WASHINGTON, DC</span></a>
+        <a href="http://eepurl.com/bgPMGv"><span>CHICAGO</span></a>
+        <a href="http://eepurl.com/bgPMGv"><span>AUSTIN</span></a>
+        <a href="http://eepurl.com/bgPMGv"><span>BROOKLYN</span></a>
     </div>
         <img class="tickets-on-sale hidden-xs hidden-sm" src="/img/tickets_nola.png">
         <button type="submit" value="Submit" class="mobile-ticket-button button radius tiny hidden-md hidden-lg js-tickets-on-sale" style="margin-bottom: 20px">New Orleans Tickets On Sale Now</button>
@@ -68,6 +67,7 @@
             <span class="js-history-click" style="padding-right: 10px; cursor: pointer">HISTORY</span>
             <span class="js-tickets-on-sale" style="padding-right: 10px; cursor: pointer">TICKETS</span>
             <span style="padding-right: 10px"><a href="http://www.nytimes.com/2011/04/17/nyregion/beefsteak-banquets-undergo-revival-in-new-york.html" target="_blank" style="color: black">PRESS</a></span>
+            <span style="padding-right: 10px"><a href="http://eepurl.com/bgPMGv" target="_blank" style="color: black">OUR MAILING LIST</a></span>
           </ul>
         </div>  
 
@@ -102,11 +102,39 @@
 
         </div>
 
-      <form class="main-body-paragraph" method="POST" style="padding-top: 20px; padding-bottom: 0px">
+<form class="main-body-paragraph" method="POST" style="padding-top: 20px; padding-bottom: 0px" action="//brooklynbeefsteak.us2.list-manage.com/subscribe/post?u=a8837b130856b6a7d35513c2a&amp;id=aa2a96ee74" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
         Sign up for ticket releases and other tasty announcements!<br/><br/>
-        <input id="POST-email" type="text" name="email" placeholder="Enter Email" />
-        <button class="email-submit" type="submit" value="Submit" class="button radius tiny" style="float: right;">Submit</button>
-      </form>
+        <input type="email" value="" placeholder='Enter Email' name="EMAIL" class="email-input required email" id="mce-EMAIL">
+
+
+        <span class="mc-field-group">
+            <label>Select City</label>
+            <select name="group[20061]" class="email-select REQ_CSS" id="mce-group[20061]">
+                <option value=""></option>
+                <option value="1">New Orleans</option>
+                <option value="2">London</option>
+                <option value="4">Boston</option>
+                <option value="8">Chicago</option>
+                <option value="16">Philadelphia</option>
+                <option value="32">Brooklyn</option>
+                <option value="64">Washington DC</option>
+                <option value="128">Austin</option>
+            </select>
+        </span>
+
+        <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <span style="position: absolute; left: -5000px;">
+            <input type="text" name="b_a8837b130856b6a7d35513c2a_aa2a96ee74" tabindex="-1" value="">
+        </span>
+        <div class="clear">
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button email-submit">
+        </div>
+    </form>
+
 
       <div class="tickets" style="display: none;">
 
@@ -250,24 +278,7 @@ both claim that their beefsteaks are the more classical or old-fashioned. <br/><
               </div>
     </div>
 
-
-
-
-
-
-
     </div>
-
-<!--     <div style="text-align: center">
-            <div class="main-body-paragraph">
-                <h2 style="font-family:'Oswald'; font-size: 1em; text-align: left;">
-                7-INCH LIMITED EDITION EP 
-                </h2>
-            </div>
-
-          <iframe width="72%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/141676229&amp;color=ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
-    </div> -->
-
 
 <script>
 
@@ -310,6 +321,7 @@ $(".js-history-click").click(function(e) {
 //     $(".mobile-ticket-button").show();
 //     $(".history").hide();
 // });
+
 
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()

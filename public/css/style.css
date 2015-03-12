@@ -18,6 +18,9 @@ footer span {
     text-align: center;
 }
 
+input {
+    width: 100%;
+}
 
 .partners-headline {
     font-family:'Oswald', sans-serif; 
@@ -62,6 +65,23 @@ footer span {
     bottom: 0px;
 }
 
+.email-input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.email-submit {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+    background-color: #F16521; 
+    border: none; color: white
+}
+
+.email-select {
+    width: 100%;
+}
+
 img.coming {
     width: 200px;
     margin-top: -10px;
@@ -93,7 +113,7 @@ img.tickets-on-sale {
     margin-top: -10px;
     position: relative;
     top: -10px;
-    left: 40px;
+    left: 90px;
     margin-bottom: 20px;
 }
 
