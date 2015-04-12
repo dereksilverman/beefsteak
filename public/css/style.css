@@ -311,6 +311,94 @@ a:hover {
 
 }
 
+@media (min-width: 992px) {
+
+    img.stars {
+        width: 600px;
+        text-align: center;
+        margin-left: 80px;
+        margin-top: -60px;
+        position: relative;
+    }
+        #slides {
+        margin-left: 20px;
+        margin-top: 260px;
+        width: 90%;
+    }
+
+    .container {
+        width: 880px;
+    }
+
+    .master-container {
+        background-image: url("../img/background-texture.png");
+        border: 20px solid white;
+    }
+
+    .beefsteak-logo {
+        width: 500px;
+        top: 150px;
+    }
+
+    .beefsteak-bar, .social-icons {
+        font-size: 12px !important;
+        font-family: 'Oswald', serif;
+    }
+
+    img.tickets-on-sale {
+        width: 300px;
+        margin-top: -10px;
+        position: relative;
+        top: 10px;
+        left: 160px;
+        margin-bottom: 20px;
+    }
+
+    .ladies {
+      font-family: "Oswald";
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    .main-body-paragraph {
+        font-size: 28px;
+        line-height: 32px;
+        font-family: 'Old Standard TT', serif;
+        font-weight: 100;
+        padding: 40px 110px;
+        padding-bottom: 40px;
+    }
+
+    .cities {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin: 0px 0px;
+    }
+
+    .cities span {
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        color: #523D29;
+        margin: 0px 8px;
+    }
+
+    .main-feature-aside {
+        font-family: 'Oswald', serif;
+        font-size: 28px;
+        line-height: 32px;
+        float: left;
+        width: 250px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        border-left: 1px solid black;
+    }
+
+
+}
+
+
 @media (min-width: 1200px) {
 
     button {
@@ -464,7 +552,7 @@ a:hover {
         margin-right: 195px;
     }
 
-    .beefsteak-bar {
+    .beefsteak-bar, .social-icons {
         font-size: 12px !important;
         font-family: 'Oswald', serif;
     }
@@ -524,7 +612,7 @@ a:hover {
         border-left: 1px solid black;
     }
 
-    .small-text {z
+    .small-text {
         font-family: 'Old Standard TT', sans-serif;
         font-size: 14px;
         margin-left: 50px;
